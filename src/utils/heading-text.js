@@ -1,18 +1,11 @@
 export const headingIconText = {
-    licensed__IconTxt: "SINCE ’94",
     map__IconTxt: "Service Areas",
     projectUs__IconTxt: "Star Project with us",
     ourServices__IconTxt: "Services",
-    expartPool__IconText: 'Choose Our Expert Pool Installers in Toronto',
-    toptail__IconText: "Top-Tier Pools",
-    faq__IconText: "Frequently Asked Questions (FAQ)",
-    aboutUs__IconText: "About Us",
-    meterialNEquip__IconText: "Materials and Equipment",
-    benefits__IconText: "About Us",
-    revidw__IconText: "Review",
-    hire__IconText: "Hire For Installation Services ",
-    joinUs__IconText: "Join With Us",
-    gellary__IconText: "Projects Gallery",
-    Benefits__IconText: "Benefits with Easy Pools",
+    bestServices__IconTxt: "Best Service Company",
+    ourExperience__IconTxt: "Our Experience in Contractors",
+    quality__IconTxt: "Quality of Our Company",
+    trustUs__IconTxt: "Why You Trust Us",
+    
 
 }
