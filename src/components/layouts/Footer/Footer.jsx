@@ -177,17 +177,19 @@ const footerIcon = [
 const Footer = () => {
   return (
     <div className="">
+      
       <div className="footer__bg px-5 lg:px-[35px] !text-white">
-        <footer className="container !z-50 pt-[50px] xl:pt-[90px] 2xl:pt-[311px] pb-9 md:pb-20 text-white">
+      <div className="top-footer-overlay"></div>
+        <footer className="container top-footer-content !z-50 pt-[50px] xl:pt-[90px] 2xl:pt-[311px] pb-9 md:pb-20 text-white">
           <div className="">
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-12 2xl:gap-x-[126px] justify-center">
               <div className="w-full lg:w-auto">
                 <div className="mx-auto flex justify-center">
                   <Image
-                    src="/assets/images/footer-brand-img.png"
+                    src="/assets/logo/logo.jpg"
                     height={311}
                     width={141}
-                    alt="Prime Concrete Plumbing Logo"
+                    alt="Logo"
                     className="w-[269px] h-[112px] md:w-[311px] md:h-[141px]"
                   />
                 </div>
