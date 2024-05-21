@@ -19,14 +19,14 @@ const footerLinks = [
     ],
   },
   {
-    cat: "Work Processes",
+    cat: "Ours Services",
     links: [
-      { label: "Initial Assessment", url: "/" },
-      { label: "Consultation and Planning", url: "/" },
-      { label: "Selection of Equipment", url: "/" },
-      { label: "Installation and Commissioning", url: "/" },
-      { label: "Training and Support", url: "/" },
-      { label: "Monitoring and Optimization", url: "/" },
+      { label: "Home Renovation", url: "/" },
+      { label: "Kitchen Renovation", url: "/" },
+      { label: "Bathroom Renovations", url: "/" },
+      { label: "Roofing", url: "/" },
+      { label: "Brown Stone Repair", url: "/" },
+      { label: "Brick Works", url: "/" },
     ],
   },
 ];
@@ -177,23 +177,24 @@ const footerIcon = [
 const Footer = () => {
   return (
     <div className="">
+      
       <div className="footer__bg px-5 lg:px-[35px] !text-white">
-        <footer className="container !z-50 pt-[50px] xl:pt-[90px] 2xl:pt-[311px] pb-9 md:pb-20 text-white">
+      <div className="top-footer-overlay"></div>
+        <footer className="container top-footer-content !z-50 pt-[50px] xl:pt-[90px] 2xl:pt-[311px] pb-9 md:pb-20 text-white">
           <div className="">
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-12 2xl:gap-x-[126px] justify-center">
               <div className="w-full lg:w-auto">
                 <div className="mx-auto flex justify-center">
                   <Image
-                    src="/assets/images/footer-brand-img.png"
+                    src="/assets/logo/logo.jpg"
                     height={311}
                     width={141}
-                    alt="Prime Concrete Plumbing Logo"
+                    alt="Logo"
                     className="w-[269px] h-[112px] md:w-[311px] md:h-[141px]"
                   />
                 </div>
                 <p className="text-white pt-6 leading-[200%] text-center md:text-start">
-                  From foundations to finishing touches, rely on Prime Ready Mix
-                  for superior solutions of concrete ready mix in Barrie.
+                We are the top-rated general contractors in Toronto for expert home renovations and construction projects.
                 </p>
               </div>
 
@@ -226,8 +227,7 @@ const Footer = () => {
                       href=""
                       className="footer-link items-center justify-center md:justify-normal text-base text-white"
                     >
-                      <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" /> 2a
-                      Cedar Ave, Vaughan. L3T 3V9
+                      <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" /> 4 Cedar Ave, Thornhill, ON L3T 3W1
                     </Link>
                   </li>
                   <li className="lg:py-8 xs:py-[12px]">
@@ -236,7 +236,7 @@ const Footer = () => {
                       className="footer-link items-center justify-center md:justify-normal text-base text-white"
                     >
                       <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
-                      647-449-9512
+                      +1 (416) 996-2409
                     </a>
                   </li>
                   <li>
@@ -245,7 +245,7 @@ const Footer = () => {
                       className="footer-link items-center justify-center md:justify-normal text-base lg:text-[12px] text-white"
                     >
                       <IoIosMail className="lg:h-7 lg:w-7 h-4 w-4" />{" "}
-                      primeconcretetoronto@gmail.com
+                      informational@yahoo.com
                     </a>
                   </li>
                   <div className="mt-[38px]">
@@ -265,7 +265,7 @@ const Footer = () => {
 
                     <div className="text-center lg:text-left">
                       <p className="text-xs lg:text-base text-white">
-                        © All Copyright 2024 by Prime Concrete Pumping
+                      © All Copyright 2024 by General Contractors
                       </p>
                       <ul className="text-sm lg:text-base flex justify-evenly gap-2 mt-4">
                         <li className="text-white"> Terms & Condition</li>
@@ -285,7 +285,7 @@ const Footer = () => {
         <div className="container flex flex-col lg:flex-row justify-between items-center py-2">
           <div className="flex justify-center items-center mb-2 lg:mb-0">
             <p className="text-xs md:text-base font-semibold text-white mr-[10px] lg:mr-4">
-              WEBSITE DESIGN AND SEO BY :-
+            WEBSITE DESIGN AND SEO BY :-
             </p>
             <Image
               src="/assets/footer/gokundu-logo.png"
@@ -297,7 +297,7 @@ const Footer = () => {
           </div>
           <div className="text-center lg:text-left hidden md:block">
             <p className="text-xs lg:text-base text-white">
-              © All Copyright 2024 by Prime Concrete Pumping
+            © All Copyright 2024 by General Contractors
             </p>
           </div>
           <div className="text-center lg:text-right hidden md:block">
