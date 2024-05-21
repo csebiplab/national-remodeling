@@ -21,7 +21,7 @@ const Header = () => {
             <Image src={logo} width={200} height={200} alt="logo"/>
           </Link>
           <div className="hidden lg:block">
-            <ul className="flex items-center gap-x-2 md:gap-x-5 xl:gap-x-10 2xl:gap-x-[75px]">
+            <ul className="flex items-center gap-x-3">
               {UtilsModule.navMenus.map(
                 ({ mainMenu, url, subMenu, svg = null }, index) => (
                   <li key={index}>
@@ -29,7 +29,7 @@ const Header = () => {
                       href={url}
                       className={`${
                         svg ? "flex items-center gap-x-1" : ""
-                      } !text-lg text-dark-100 font-bold`}
+                      } !text-lg text-black font-normal`}
                     >
                       {mainMenu} {svg}
                     </Link>
@@ -49,7 +49,7 @@ const Header = () => {
               />
               <a
                 href="tel:+1(647) 449 9512"
-                className="text-secondary font-bold xs:text-base sm:text-xl md:text-2xl 2xl:text-3xl"
+                className="text-secondary font-bold xs:text-base sm:text-xl md:text-lg lg:text-[20px] "
               >
                 +1(647) 449 9512
               </a>

@@ -15,10 +15,10 @@ const ServiceCard = ({ serv }) => {
           className="W-full h-[240px]"
         />
         <div className="px-[10px]">
-          <h5 className="py-3 md:py-[15px] 2xl:text-[24px] lg:text-xl text-sm leading-normal">
+          <h5 className="py-3 text-left md:py-[15px] 2xl:text-[24px] lg:text-xl text-sm leading-normal">
             {title}
           </h5>
-          <p className=" 2xl:text-[15px] text-[10px] leading-[20px] text-left">{desc}</p>
+          <p className=" 2xl:text-[15px] text-[10px] text-left leading-normal">{desc}</p>
           <div className="pb-5 mt-5 flex justify-center items-b relative">
             <CommonButton />
           </div>

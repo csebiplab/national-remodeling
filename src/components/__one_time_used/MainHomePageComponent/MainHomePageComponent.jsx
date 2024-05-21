@@ -12,6 +12,7 @@ import GeneralContractors from "./GeneralContractors/GeneralContractors";
 import KeyServices from "./KeyServices/KeyServices";
 import Services from "./Services/Services";
 import Review from "./Review/Review";
+import ProjectGallery from "./ProjectGallery/ProjectGallery";
 
 const MainHomePageComponent = () => {
   return (
@@ -35,6 +36,10 @@ const MainHomePageComponent = () => {
 
       <section>
         <Services/>
+      </section>
+
+      <section>
+        <ProjectGallery/>
       </section>
 
       <section>

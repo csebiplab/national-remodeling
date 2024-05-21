@@ -8,18 +8,16 @@ const TrustUs = () => {
       <div className="bg-[#FFF9EE]">
         <div className=" container">
           <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] 2xl:py-[100px] lg:py-[70px] py-[50px]">
-            <div className="relative z-50 md:col-span-3 flex justify-center items-center ">
+            <div className=" md:col-span-3 flex justify-center items-center ">
               <div className="">
                 <Image
-                  src="/assets/images/TrustUs.png"
+                  src="/assets/images/Why_You_Trust_Us.png"
                   width={620}
                   height={510}
                   alt="Our Experience image"
                   className=""
                 />
               </div>
-              <div className="w-[280px] h-[245px] bg-primary rounded-md absolute bottom-4 right-2 -z-50"></div>
-              <div className="w-[280px] h-[245px] bg-black rounded-md absolute top-4 left-2 -z-50"></div>
             </div>
 
             <div className="md:col-span-3">

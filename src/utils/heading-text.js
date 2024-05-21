@@ -9,6 +9,7 @@ export const headingIconText = {
     GeneralContractors__IconTxt: "The Leading Contractors Company",
     services__IconTxt: "Services",
     reviews__IconTxt: "Reviews",
+    gallery__IconTxt: "Our Portfolio Gallery ",
     
 
 }
