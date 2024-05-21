@@ -6,6 +6,9 @@ export const headingIconText = {
     ourExperience__IconTxt: "Our Experience in Contractors",
     quality__IconTxt: "Quality of Our Company",
     trustUs__IconTxt: "Why You Trust Us",
+    GeneralContractors__IconTxt: "The Leading Contractors Company",
+    services__IconTxt: "Services",
+    reviews__IconTxt: "Reviews",
     
 
 }

@@ -130,7 +130,7 @@ export default function ContactHome() {
                 </label>
                 <input
                   className="w-full field__style shadow-sm p-3 text-sm"
-                  placeholder="+1 123 123 1234"
+                  placeholder="+1 (416) 996-2409"
                   type="tel"
                   id="phone"
                 />

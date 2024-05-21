@@ -8,6 +8,10 @@ import BestServices from "./BestServices/BestServices";
 import OurExperience from "./OurExperience/OurExperience";
 import Quality from "./Quality/Quality";
 import TrustUs from "./TrustUs/TrustUs";
+import GeneralContractors from "./GeneralContractors/GeneralContractors";
+import KeyServices from "./KeyServices/KeyServices";
+import Services from "./Services/Services";
+import Review from "./Review/Review";
 
 const MainHomePageComponent = () => {
   return (
@@ -26,7 +30,19 @@ const MainHomePageComponent = () => {
       </section>
 
       <section>
+        <KeyServices/>
+      </section>
+
+      <section>
+        <Services/>
+      </section>
+
+      <section>
         <OurExperience/>
+      </section>
+
+      <section>
+        <GeneralContractors/>
       </section>
 
       <section>
@@ -35,6 +51,10 @@ const MainHomePageComponent = () => {
 
       <section>
         <TrustUs/>
+      </section>
+
+      <section>
+        <Review/>
       </section>
 
       <section>
