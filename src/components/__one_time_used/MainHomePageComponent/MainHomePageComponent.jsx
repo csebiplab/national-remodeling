@@ -13,6 +13,9 @@ import KeyServices from "./KeyServices/KeyServices";
 import Services from "./Services/Services";
 import Review from "./Review/Review";
 import ProjectGallery from "./ProjectGallery/ProjectGallery";
+import ChoosetheRight from "./ChoosetheRight/ChoosetheRight";
+import AboutUs from "./AboutUs/AboutUs";
+import WorkingProcess from "./WorkingProcess/WorkingProcess";
 
 const MainHomePageComponent = () => {
   return (
@@ -28,6 +31,10 @@ const MainHomePageComponent = () => {
 
       <section>
         <BestServices/>
+      </section>
+
+      <section>
+        <AboutUs/>
       </section>
 
       <section>
@@ -51,6 +58,10 @@ const MainHomePageComponent = () => {
       </section>
 
       <section>
+        <WorkingProcess/>
+      </section>
+
+      <section>
         <Quality/>
       </section>
 
@@ -60,6 +71,10 @@ const MainHomePageComponent = () => {
 
       <section>
         <Review/>
+      </section>
+
+      <section>
+        <ChoosetheRight/>
       </section>
 
       <section>

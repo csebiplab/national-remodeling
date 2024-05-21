@@ -1,0 +1,16 @@
+.title-bg {
+    border-radius: 6px 6px 0px 0px;
+    background: linear-gradient(90deg, #C99B4C 0%, #000 100%);
+}
+.title-bg2 {
+    border-radius: 6px 6px 0px 0px;
+    background: linear-gradient(90deg, #C99B4C 0%, #000 100%);
+}
+
+.footer__bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/Choose_the_Right.png");
+  background-size: cover;
+  background-position: center;
+}
