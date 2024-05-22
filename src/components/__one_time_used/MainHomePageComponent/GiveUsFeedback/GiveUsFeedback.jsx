@@ -10,15 +10,15 @@ export default function ContactHome() {
     <div className="pt-12 lg:mt[120px] bg__color">
       <div className="grid grid-cols-1 lg:grid-cols-6 items-center gap-x-10">
         <div
-          className="order-2 lg:order-1 py-6 lg:py-16 px-6 lg:pl-[71px] lg:pr-2 lg:col-span-3 bg-[#F5F8FA] text-white"
+          className="order-2 lg:order-1 py-6 lg:py-28 px-6 lg:pl-[71px] lg:pr-2 lg:col-span-3 bg-[#F5F8FA] text-white"
         >
           <div className="">
-            <h2 className="text-lg lg:text-3xl text-black pb-[37px] text-center lg:text-start">
+            <h2 className="text-[28px] md:text-4xl font-bold leading-normal text-black pb-[20px] text-center lg:text-left">
               Contact Us
             </h2>
             <div className="flex gap-2 items-center lg:text-lg text-sm justify-center lg:justify-start pb-6">
-              <FaMapLocationDot className="fill-black lg:w-5 lg:h-5 w-auto h-auto" />
-              <p className="text-black">4 Cedar Ave, Thornhill, ON L3T 3W1, Canada</p>
+              <FaMapLocationDot className="fill-black w-[29px] h-[29px]"/>
+              <p className="text-black text-lg font-normal">4 Cedar Ave, Thornhill, ON L3T 3W1, Canada</p>
             </div>
             <div className="">
               {/* <FaPhoneVolume className="fill-white lg:w-5 lg:h-5 w-auto h-auto" />
@@ -28,8 +28,8 @@ export default function ContactHome() {
                 href="tel:647-449-9512"
                 className="my-3 flex gap-2 items-center lg:text-lg text-sm justify-center lg:justify-start pb-6"
               >
-                <FaPhoneVolume className="fill-black lg:w-5 lg:h-5 w-auto h-auto" />
-                <span className="text-black">+1 (416) 996-2409</span>
+                <FaPhoneVolume className="fill-black w-[29px] h-[29px]" />
+                <span className="text-black text-lg font-normal">+1 (416) 996-2409</span>
               </a>
             </div>
             <div className="">
@@ -40,34 +40,34 @@ export default function ContactHome() {
                 href="mailto:primeconcretetoronto@gmail.com"
                 className="lg:text-lg text-sm flex gap-2 items-center justify-center lg:justify-start pb-6"
               >
-                <IoIosMail className="fill-black lg:w-5 lg:h-5 w-auto h-auto" />
-                <span className="text-black">
+                <IoIosMail className="fill-black w-[29px] h-[29px]"/>
+                <span className="text-black text-lg font-normal">
                 informational@yahoo.com
                 </span>
               </a>
             </div>
-            <div className="flex lg:gap-8 gap-3 justify-center lg:justify-start mb-12">
-              <FaFacebook className="fill-black lg:w-6 lg:h-6 w-auto h-auto" />
-              <FaXTwitter className="fill-black lg:w-6  lg:h-6 w-auto h-auto" />
-              <FaInstagram className="fill-black lg:w-6 lg:h-6 w-auto h-auto" />
-              <FaLinkedin className="fill-black lg:w-6 lg:h-6 w-auto h-auto" />
+            <div className="flex lg:gap-8 gap-3 justify-center lg:justify-start mb-4">
+              <FaFacebook className="fill-black w-[29px] h-[29px]" />
+              <FaXTwitter className="fill-black w-[29px] h-[29px]" />
+              <FaInstagram className="fill-black w-[29px] h-[29px]" />
+              <FaLinkedin className="fill-black w-[29px] h-[29px]" />
             </div>
 
             <div className="flex justify-center lg:justify-start">
               <div>
-                <h4 className="text-black text-xl lg:text-3xl">
+                <h4 className="text-black text-[25px] text-center md:text-left font-bold">
                 National Remodeling & General Contractors Inc
                 </h4>
                 <div className="py-8">
                   <Image
-                    src="/assets/logo/logo.jpg"
-                    height={280}
+                    src="/assets/logo/Logo.png"
+                    height={260}
                     width={130}
-                    alt="Prime Concrete Plumbing Logo"
-                    className="w-[280px] h-[130px]"
+                    alt="Toronto Logo"
+                    className="w-[260px] h-[130px] mx-auto lg:mx-0"
                   />
                 </div>
-                <h4 className="text-black text-xl lg:text-3xl">
+                <h4 className="text-black text-[25px] font-bold text-center md:text-left">
                   General Contractors in Toronto
                 </h4>
               </div>
@@ -76,7 +76,7 @@ export default function ContactHome() {
         </div>
 
         <div className="form__part order-1 lg:order-2 rounded-lg p-5 lg:col-span-3 lg:p-12 items-center">
-          <h2 className="lg:mb-8 mb-5 text-white">Give Us Feedback </h2>
+          <h2 className="lg:mb-8 mb-5 text-white text-[28px] lg:text-4xl">Give Us Feedback </h2>
           <form action="#" className="space-y-4 ">
             <div>
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:mb-8 mb-4">

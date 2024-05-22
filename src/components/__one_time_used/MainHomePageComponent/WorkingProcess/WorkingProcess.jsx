@@ -31,7 +31,7 @@ const breakpoints = {
   },
 };
 
-const slideData = [
+const workingData = [
   {
     imgSrc: working1,
     title: "Initial Consultation",
@@ -92,7 +92,7 @@ const WorkingProcess = () => {
             allowTouchMove={false}
             breakpoints={breakpoints}
           >
-            {slideData.map((slide, index) => (
+            {workingData.map((slide, index) => (
               <SwiperSlide
                 key={index}
                 className={`text-center py-4 lg:py-10 px-20 md:px-14 lg:px-6`}

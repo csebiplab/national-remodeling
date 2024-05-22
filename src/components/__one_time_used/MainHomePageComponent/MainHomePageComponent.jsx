@@ -16,6 +16,9 @@ import ProjectGallery from "./ProjectGallery/ProjectGallery";
 import ChoosetheRight from "./ChoosetheRight/ChoosetheRight";
 import AboutUs from "./AboutUs/AboutUs";
 import WorkingProcess from "./WorkingProcess/WorkingProcess";
+import ReadyToWork from "./ReadyToWork/ReadyToWork";
+import CostBudgeting from "./CostBudgeting/CostBudgeting";
+import FactorsToHiringUs from "./FactorsToHiringUs/FactorsToHiringUs";
 
 const MainHomePageComponent = () => {
   return (
@@ -66,11 +69,23 @@ const MainHomePageComponent = () => {
       </section>
 
       <section>
+        <ReadyToWork/>
+      </section>
+
+      <section>
+        <CostBudgeting/>
+      </section>
+
+      <section>
         <TrustUs/>
       </section>
 
       <section>
         <Review/>
+      </section>
+
+      <section>
+        <FactorsToHiringUs/>
       </section>
 
       <section>

@@ -72,14 +72,14 @@ const ChoosetheRight = () => {
               </div>
 
               <div>
-                <p className="text-white 2xl:text-[36px] md:text-[20px] xs:text-[18px] md:pb-0 xs:pb-[20px] text-center ">
+                <p className="text-white  text-[28px] lg:text-4xl font-medium text-center ">
                   Choose the Right General Contractors{" "}
                   <span className="text-primary">in Toronto</span>
                 </p>
               </div>
 
               <div>
-                <p className=" md:block 2xl:text-[16px] text-[14px] text-center 3xl:py-[35px] py-[30px] text-white">
+                <p className=" md:block text-lg font-normal text-center md:text-left text-white pt-4">
                   Choosing the right general contractor in Toronto, or anywhere,
                   is crucial for the success of your construction project. Every
                   renovation company is not the same or not good at work. You
