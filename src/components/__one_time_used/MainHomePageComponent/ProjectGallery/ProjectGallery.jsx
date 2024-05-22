@@ -52,7 +52,7 @@ const ProjectGallery = () => {
             <HeadingIcon text={headingIconText.gallery__IconTxt} />
 
             <div>
-              <p className="text-black text-lg md:text-3xl lg:text-4xl 3xl:pb-[30px] pb-[25px] text-center ">
+              <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
                 Gallery of{" "}
                 <span className="text-primary">Our Past Projects</span>
               </p>

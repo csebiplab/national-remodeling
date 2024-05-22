@@ -100,9 +100,9 @@ const Review = () => {
             <HeadingIcon text={headingIconText.reviews__IconTxt} />
 
             <div>
-              <p className="text-lg md:text-3xl lg:text-4xl text-dark md:text-start text-center md:mb-20 mb-8 text ">
+              <h3 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
               Reviews Of <span className="text-primary">General Contractors</span>
-              </p>
+              </h3>
             </div>
           </div>
         </div>

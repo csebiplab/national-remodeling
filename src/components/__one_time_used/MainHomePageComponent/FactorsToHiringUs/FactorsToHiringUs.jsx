@@ -55,17 +55,17 @@ const FactorsToHiringUs = () => {
               <HeadingIcon text={headingIconText.factorsToHiringUs__IconTxt} />
             </div>
 
-            <h2 className="lg:leading-10 lg:text-4xl text-lg mt-[9px] mb-[10px] xl:mt-[15px] xl:mb-[25px] text-center text-black">
+            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
             Factors to Consider When Hiring a
             <span className="text-primary"> Toronto General Contractor</span>
             </h2>
           </div>
 
-          <div className="grid gird-cols-1 lg:grid-cols-3">
+          <div className="grid gird-cols-1 lg:grid-cols-3 gap-12">
             {workingData.map((slide, index) => (
               <div
                 key={index}
-                className={`text-center py-4 lg:py-6 lg:px-12`}
+                className={`relative text-center py-4 lg:py-6 lg:px-12`}
               >
                 <div>
                   <Image
@@ -84,7 +84,7 @@ const FactorsToHiringUs = () => {
                     </p>
                   </div>
                 </div>
-                <hr className="border border-primary"/>
+                <hr className="absolute bottom-0 left-0 right-0 border border-black"/>
               </div>
             ))}
           </div>

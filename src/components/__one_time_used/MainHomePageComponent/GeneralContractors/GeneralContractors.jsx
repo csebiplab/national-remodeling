@@ -13,8 +13,8 @@ const GeneralContractors = () => {
                 <div className="flex md:justify-normal justify-center md:items-start items-center">
                     <HeadingIcon text={headingIconText.GeneralContractors__IconTxt}/>
                 </div>
-                <p className="text-black text-[28px] md:text-3xl lg:text-4xl text-center md:text-left font-normal md:font-medium leading-normal">The Leading General Contractors <span className="text-primary">in Toronto</span></p>
-                <p className="text-lg leading-9">
+                <h3 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">The Leading General Contractors <span className="text-primary">in Toronto</span></h3>
+                <p className="text-lg font-medium leading-[194%] text-center md:text-left">
                 National Remodelling & General Contracting Inc. stands tall among Toronto's leading general contractors, renowned for our unwavering commitment to excellence. With a rich history spanning years, we have established ourselves as pioneers in the industry, delivering top-tier construction and renovation solutions to residential and commercial clients alike. From meticulous planning to flawless execution, every project undertaken by us reflects our dedication to quality and client satisfaction. Our team of skilled professionals combines innovative design with superior construction techniques to bring visions to life, transforming spaces into masterpieces. Whether it's a residential renovation, commercial build-out, or restoration project, our company sets the benchmark for reliability, integrity, and superior craftsmanship in Toronto's construction landscape.
                 </p>
           </div>

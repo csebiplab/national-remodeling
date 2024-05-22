@@ -15,11 +15,11 @@ const AboutUs = () => {
                 text={headingIconText.AboutUs__IconTxt}
               />
             </div>
-            <h3 className="mb-[15px] md:mb-[25px] !mt-[10px] md:mt-4  text-2xl md:text-3xl lg:text-4xl text-dark leading-normal text-center md:text-start">
+            <h3 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
               <span className="text-primary">About Our </span>
               General Contractors in Toronto
             </h3>
-            <p className="text-lg font-medium leading-[194%]">
+            <p className="text-lg font-medium leading-[194%] text-center md:text-left">
             National Remodelling & General Contracting Inc. is one of the best remodeling & contracting companies in Toronto. We’ve been in business for the past 15 years serving the GTA and surrounding areas in both residential and commercial capacity. Our company is fully licensed and insured, with licensed plumbers, electricians, HVAC and gas, and mechanical guys on board our team. We can do legal basements, kitchen renovations, washrooms, stairs, hardwood floors, tiling, painting, fences and decks, carpentry, and many more designs to your dreams. We have a Whmis license, height, and fall, asbestos, and I’m fully insured. Please give us a call today at 416-996-2409. We look forward to hearing from you!
             </p>
           </div>

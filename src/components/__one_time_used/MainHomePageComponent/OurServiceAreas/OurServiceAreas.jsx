@@ -10,7 +10,7 @@ const OurServiceAreas = () => {
         <div className="mx-auto flex flex-col items-center justify-center pt-10">
           <HeadingIcon text={headingIconText.map__IconTxt} />
 
-          <h3 className="mb-[10px] md:mb-[15px] !mt-[5px] md:mt-4  text-base md:text-xl lg:text-4xl text-center">
+          <h3 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
             Our Service Areas From{" "}
             <span className="text-primary">General Contractor</span>
           </h3>

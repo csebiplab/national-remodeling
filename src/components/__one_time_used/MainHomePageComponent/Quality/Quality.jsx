@@ -13,7 +13,7 @@ const Quality = () => {
               <div className="flex md:justify-normal justify-center md:items-start items-center text-[14px]">
                 <HeadingIcon text={headingIconText.quality__IconTxt} />
               </div>
-              <p className="mt-4 lg:mb-[25px] mb-[15px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center">
+              <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
               Quality General Contractors{" "}
                 <span className="text-primary">in Toronto</span>
               </p>
