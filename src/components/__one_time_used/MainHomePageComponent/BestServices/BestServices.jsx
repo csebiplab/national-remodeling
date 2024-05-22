@@ -28,7 +28,7 @@ const BestServices = () => {
                 Best Remodeling & Construction{" "}
                 <span className="text-primary">Services Company</span>
               </p>
-              <p className="text-[18px] 2xl:leading-[35px] lg:leading-[25px] leading-[20px] md:text-start text-center">
+              <p className="text-[18px] font-normal 2xl:leading-[35px] lg:leading-[25px] leading-[20px] md:text-start text-center">
                 National Remodelling & General Contracting Inc. stands as a
                 beacon of excellence in the realm of home renovation and
                 construction services. With a commitment to quality

@@ -13,7 +13,6 @@ import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
 import "swiper/css/grid";
 
-
 const ProjectGallery = () => {
   const galImgs = [
     "/assets/gallery/Gallery_1.png",
@@ -27,8 +26,7 @@ const ProjectGallery = () => {
     "/assets/gallery/Gallery_9.png",
     "/assets/gallery/Gallery_10.png",
     "/assets/gallery/Gallery_11.png",
-    "/assets/gallery/Gallery_12.png"
-    
+    "/assets/gallery/Gallery_12.png",
   ];
 
   const galImgs2 = [
@@ -43,7 +41,7 @@ const ProjectGallery = () => {
     "/assets/gallery/Gallery_9.png",
     "/assets/gallery/Gallery_10.png",
     "/assets/gallery/Gallery_11.png",
-    "/assets/gallery/Gallery_12.png"
+    "/assets/gallery/Gallery_12.png",
   ];
 
   return (
@@ -55,7 +53,8 @@ const ProjectGallery = () => {
 
             <div>
               <p className="text-black text-lg md:text-3xl lg:text-4xl 3xl:pb-[30px] pb-[25px] text-center ">
-              Gallery of <span className="text-primary">Our Past Projects</span>
+                Gallery of{" "}
+                <span className="text-primary">Our Past Projects</span>
               </p>
             </div>
           </div>
@@ -101,9 +100,9 @@ const ProjectGallery = () => {
               <Image
                 width={400}
                 height={400}
-                className="object-contain w-auto h-auto mx-auto"
                 src={imgUrl}
                 alt="gallery"
+                className="object-contain w-full h-auto mx-auto"
               />
             </SwiperSlide>
           ))}
@@ -147,9 +146,9 @@ const ProjectGallery = () => {
               <Image
                 width={400}
                 height={400}
-                className="object-contain w-auto h-auto mx-auto "
                 src={imgUrl}
                 alt="gallery"
+                className="object-contain w-full h-auto mx-auto "
               />
             </SwiperSlide>
           ))}

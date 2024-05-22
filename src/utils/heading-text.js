@@ -9,7 +9,12 @@ export const headingIconText = {
     GeneralContractors__IconTxt: "The Leading Contractors Company",
     services__IconTxt: "Services",
     reviews__IconTxt: "Reviews",
-    gallery__IconTxt: "Our Portfolio Gallery ",
+    gallery__IconTxt: "Our Portfolio Gallery",
+    chooseTheRight__IconTxt: "Choose the Right",
+    AboutUs__IconTxt: "About Us",
+    workingProcess__IconTxt: "Working Process",
+    readyToWork__IconTxt: "Ready to Work with us",
+    costBudgeting__IconTxt: "Cost & Budgeting",
+    factorsToHiringUs__IconTxt: "Factors to Hiring Us",
     
-
 }

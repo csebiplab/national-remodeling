@@ -4,7 +4,6 @@ import Link from "next/link";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
-
 import "./Footer.css";
 
 const footerLinks = [
@@ -178,7 +177,7 @@ const Footer = () => {
   return (
     <div className="">
       
-      <div className="footer__bg px-5 lg:px-[35px] !text-white">
+      <div className="Footer__bg px-5 lg:px-[35px] !text-white">
       <div className="top-footer-overlay"></div>
         <footer className="container top-footer-content !z-50 pt-[50px] xl:pt-[90px] 2xl:pt-[311px] pb-9 md:pb-20 text-white">
           <div className="">
@@ -186,7 +185,7 @@ const Footer = () => {
               <div className="w-full lg:w-auto">
                 <div className="mx-auto flex justify-center">
                   <Image
-                    src="/assets/logo/logo.jpg"
+                    src="/assets/logo/Logo.png"
                     height={311}
                     width={141}
                     alt="Logo"

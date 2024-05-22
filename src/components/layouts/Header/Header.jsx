@@ -4,7 +4,7 @@ import "./Header.css";
 import Link from "next/link";
 import { UtilsModule } from "@/utils/nav-menus";
 import WebBrandSvg from "../../ui/WebBrandSvg";
-import logo from "../../../../public/assets/logo/logo.jpg"
+import logo from "../../../../public/assets/logo/Logo.png"
 
 const Header = () => {
   return (

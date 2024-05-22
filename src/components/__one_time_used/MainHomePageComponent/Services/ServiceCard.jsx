@@ -14,11 +14,11 @@ const ServiceCard = ({ serv }) => {
           alt="easy pools"
           className="W-full h-[240px]"
         />
-        <div className="px-[10px]">
+        <div className="px-[6px]">
           <h5 className="py-3 text-left md:py-[15px] 2xl:text-[24px] lg:text-xl text-sm leading-normal">
             {title}
           </h5>
-          <p className=" 2xl:text-[15px] text-[10px] text-left leading-normal">{desc}</p>
+          <p className="text-lg text-left font-normal leading-normal">{desc}</p>
           <div className="pb-5 mt-5 flex justify-center items-b relative">
             <CommonButton />
           </div>
