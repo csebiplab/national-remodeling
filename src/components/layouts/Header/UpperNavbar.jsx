@@ -2,74 +2,77 @@ import Image from "next/image";
 
 const UpperNavbar = () => {
   return (
-    // <nav className="px-5 md:px-10 xl:px-20 2xl:px-[120px] py-5 bg__uppernav">
-    <nav className="container py-2 bg__uppernav hidden md:block">
-      <div className="flex justify-end gap-x-8">
-        <div className="flex items-center gap-x-1">
-          <Image
-            src="/assets/images/message.png"
-            width={23}
-            height={23}
-            alt="canada leaf"
-            className="w-[23px] h-[23px]"
-          />
-          <h5 className="text-[14px] text-secondary-50">
-          Best Construction Services Company
-          </h5>
+    <nav className="container md:px-0 py-2 bg__uppernav hidden lg:block">
+      <div className="flex justify-between xl:gap-5 2xl:gap-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-[35px]">
+        <div className="flex items-center gap-x-4 xl:gap-x-5 2xl:gap-x-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-9">
+          <div className="flex items-center gap-x-1">
+            <Image
+              src="/assets/images/message.png"
+              width={23}
+              height={23}
+              alt="message icon"
+              className="w-[15px] 2xl:w-[17px] 3xl:w-[19px] 4xl:w-[21px] 5xl:w-[23px] h-auto 5xl:h-[23px]"
+            />
+            <h5 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
+              Best Construction Services Company
+            </h5>
+          </div>
+
+          <div className="flex items-center gap-x-1">
+            <Image
+              src="/assets/images/email.png"
+              width={23}
+              height={23}
+              alt="email icon"
+              className="w-[15px] 2xl:w-[17px] 3xl:w-[19px] 4xl:w-[21px] 5xl:w-[23px] h-auto 5xl:h-[23px]"
+            />
+            <h5 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
+              informational@yahoo.com
+            </h5>
+          </div>
         </div>
 
-        <div className="flex items-center gap-x-1">
-          <Image
-            src="/assets/images/email.png"
-            width={23}
-            height={23}
-            alt="canada leaf"
-            className="w-[23px] h-[23px]"
-          />
-          <h5 className="text-[14px] text-secondary-50">
-            informational@yahoo.com
-          </h5>
-        </div>
-
-        <div className="flex items-center gap-2">
-          <h3 className="text-secondary-50 text-[14px]">Follow Us:</h3>
-          <div className="flex items-center gap-x-4 md:gap-x-6 xl:gap-x-9">
-          <Image
-            src="/assets/socials/facebook.png"
-            width={20}
-            height={20}
-            className="w-[20px] h-[20px]"
-            alt="facebook"
-          />
-          <Image
-            src="/assets/socials/x.png"
-            width={20}
-            height={20}
-            className="w-[20px] h-[20px]"
-            alt="x"
-          />
-          <Image
-            src="/assets/socials/insta.png"
-            width={20}
-            height={20}
-            className="w-[20px] h-[20px]"
-            alt="instagram"
-          />
-          <Image
-            src="/assets/socials/in.png"
-            width={20}
-            height={20}
-            className="w-[20px] h-[20px]"
-            alt="linkedin"
-          />
-          <Image
-            src="/assets/socials/google.png"
-            width={20}
-            height={20}
-            className="w-[20px] h-[20px]"
-            alt="google"
-          />
-        </div>
+        <div className="flex items-center gap-1 4xl:gap-1.5 5xl:gap-2">
+          <h3 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
+            Follow Us:
+          </h3>
+          <div className="flex items-center gap-x-2 2xl:gap-x-3 3xl:gap-x-4 4xl:gap-x-5 5xl:gap-x-6">
+            <Image
+              src="/assets/socials/facebook.png"
+              width={20}
+              height={20}
+              className="w-[16px] 4xl:w-[18px] 5xl:w-[20px] h-[16px] 4xl:h-[18px] 5xl:h-[20px]"
+              alt="facebook"
+            />
+            <Image
+              src="/assets/socials/x.png"
+              width={20}
+              height={20}
+              className="w-[16px] 4xl:w-[18px] 5xl:w-[20px] h-[16px] 4xl:h-[18px] 5xl:h-[20px]"
+              alt="x"
+            />
+            <Image
+              src="/assets/socials/insta.png"
+              width={20}
+              height={20}
+              className="w-[16px] 4xl:w-[18px] 5xl:w-[20px] h-[16px] 4xl:h-[18px] 5xl:h-[20px]"
+              alt="instagram"
+            />
+            <Image
+              src="/assets/socials/in.png"
+              width={20}
+              height={20}
+              className="w-[16px] 4xl:w-[18px] 5xl:w-[20px] h-[16px] 4xl:h-[18px] 5xl:h-[20px]"
+              alt="linkedin"
+            />
+            <Image
+              src="/assets/socials/google.png"
+              width={20}
+              height={20}
+              className="w-[16px] 4xl:w-[18px] 5xl:w-[20px] h-[16px] 4xl:h-[18px] 5xl:h-[20px]"
+              alt="google"
+            />
+          </div>
         </div>
       </div>
     </nav>

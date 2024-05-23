@@ -76,13 +76,13 @@ export default function ContactHome() {
         </div>
 
         <div className="form__part order-1 lg:order-2 rounded-lg p-5 lg:col-span-3 lg:p-12 items-center">
-          <h2 className="lg:mb-8 mb-5 text-white text-[28px] lg:text-4xl">Give Us Feedback </h2>
+          <h2 className="lg:mb-8 mb-5 text-white text-[28px] lg:text-4xl font-bold">Give Us Feedback </h2>
           <form action="#" className="space-y-4 ">
             <div>
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:mb-8 mb-4">
                 <div>
                   {" "}
-                  <h5 className="mb-2 text-white">Your name *</h5>
+                  <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">Your name *</h5>
                   <label className="sr-only" htmlFor="email">
                     name
                   </label>
@@ -95,7 +95,7 @@ export default function ContactHome() {
                 </div>
 
                 <div>
-                  <h5 className="mb-2 text-white">Email *</h5>
+                  <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">Email *</h5>
                   <label className="sr-only" htmlFor="phone">
                     Phone
                   </label>
@@ -111,7 +111,7 @@ export default function ContactHome() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mb-8 mb-4">
               <div>
-                <h5 className="mb-2 text-white">Subjects *</h5>
+                <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">Subjects *</h5>
                 <label className="sr-only" htmlFor="email">
                   Email
                 </label>
@@ -124,7 +124,7 @@ export default function ContactHome() {
               </div>
 
               <div>
-                <h5 className="mb-2 text-white">Your Phone *</h5>
+                <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">Your Phone *</h5>
                 <label className="sr-only" htmlFor="phone">
                   Phone
                 </label>
@@ -141,7 +141,7 @@ export default function ContactHome() {
               <label className="sr-only" htmlFor="message">
                 Message
               </label>
-              <h5 className="mb-2 text-white">Message *</h5>
+              <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">Message *</h5>
               <textarea
                 className="w-full field__style shadow-sm p-4 text-sm"
                 placeholder="Write Message"

@@ -7,7 +7,7 @@ const ProjectUs = () => {
   return (
     <div className="bg__color">
       <div className="full__section_r_p">
-        <div className=" grid md:grid-cols-7 grid-cols-1 gap-10 2xl:py-[100px] lg:py-[70px] py-[50px]">
+        <div className=" grid md:grid-cols-7 grid-cols-1 gap-10 lg:py-[50px] py-[30px]">
           <div className="md:col-span-4 flex items-center ">
             <div className="">
               <Image

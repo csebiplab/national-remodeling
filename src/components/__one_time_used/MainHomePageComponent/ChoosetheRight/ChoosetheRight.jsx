@@ -68,7 +68,7 @@ const ChoosetheRight = () => {
           <div className=" grid md:grid-cols-3 2xl:gap-[50px] md:gap-[30px] ">
             <div className="mx-auto flex flex-col items-center justify-center">
               <div className="flex md:justify-normal justify-center md:items-start items-center">
-                <HeadingIcon text={headingIconText.chooseTheRight__IconTxt} />
+                <HeadingIcon text={headingIconText.chooseTheRight__IconTxt} classes={{textWhite:"text-white"}} />
               </div>
 
               <div>
@@ -88,15 +88,15 @@ const ChoosetheRight = () => {
               </div>
             </div>
 
-            <div className=" border-2 shadow bg-white">
-              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white 2xl:text-[18px] text-[16px]">
+            <div className=" border-2 shadow bg-[#FFF9EE] rounded-lg">
+              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-[22px] font-bold">
                 Usual General Contractors
               </h2>
               <div className=" grid grid-flow-col grid-rows-8 3xl:py-[35px] py-[25px] 3xl:px-[25px] px-[20px] 2xl:text-[16px] lg:text-[14px] xs:text-[9px]  ">
                 {usualPool.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex  gap-4 items-center 3xl:mb-[40px] lg:mb-[30px] xs:mb-[15px]  leading-none  "
+                    className="flex  gap-4 items-center mb-20px lg:mb-[36px]  leading-none  "
                   >
                     <Image
                       src="/assets/images/x.png"
@@ -105,21 +105,21 @@ const ChoosetheRight = () => {
                       height={23}
                       className="2xl:h-[23px] 2xl:w-[23px] h-[15px] w-[15px]"
                     />
-                    <p className="text-lg">{usual.title}</p>
+                    <p className="text-lg text-[#6B6B6B] font-bold">{usual.title}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className=" border-2 shadow bg-white">
-              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white 2xl:text-[18px] text-[16px]">
+            <div className=" border-2 shadow bg-[#FFF9EE] rounded-lg">
+              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-[22px]">
                 Our General Contractors
               </h2>
               <div className=" grid grid-flow-col grid-rows-8 3xl:py-[35px] py-[25px] 3xl:px-[25px] px-[20px] 2xl:text-[16px] lg:text-[14px] xs:text-[9px] ">
                 {easyPool.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex  gap-4 items-center 3xl:mb-[40px] lg:mb-[30px]  xs:mb-[15px] leading-none "
+                    className="flex gap-4 items-center leading-none mb-20px lg:mb-[36px]"
                   >
                     <Image
                       src="/assets/images/r.png"
@@ -128,7 +128,7 @@ const ChoosetheRight = () => {
                       height={23}
                       className="h-[15px] w-[15px] 2xl:h-[23px] 2xl:w-[23px]"
                     />
-                    <p className="text-lg">{usual.title}</p>
+                    <p className="text-lg text-[#6B6B6B] font-bold">{usual.title}</p>
                   </div>
                 ))}
               </div>

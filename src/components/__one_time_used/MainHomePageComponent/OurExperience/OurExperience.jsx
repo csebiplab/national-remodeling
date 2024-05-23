@@ -15,7 +15,7 @@ const OurExperience = () => {
                   width={620}
                   height={510}
                   alt="Our Experience image"
-                  className=""
+                  className="w-dvw lg:h-[900px] xl:h-full "
                 />
               </div>
             </div>

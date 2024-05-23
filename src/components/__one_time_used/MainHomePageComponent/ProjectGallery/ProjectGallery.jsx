@@ -46,7 +46,7 @@ const ProjectGallery = () => {
 
   return (
     <div className="bg-[#FFF9EE]">
-      <div className="custom-container 3xl:py-[85px] py-[50px]">
+      <div className="custom-container  py-[40px] 3xl:py-[60px]">
         <div className="">
           <div className=" flex flex-col justify-center items-center ">
             <HeadingIcon text={headingIconText.gallery__IconTxt} />
