@@ -7,7 +7,6 @@ import Factor5 from "../../../../../public/assets/images/Factor5.png";
 import Factor6 from "../../../../../public/assets/images/Factor6.png";
 import Image from "next/image";
 
-import "./FactorsToHiringUs.css"
 import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 

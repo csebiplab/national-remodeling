@@ -21,8 +21,6 @@ export default function ContactHome() {
               <p className="text-black text-lg font-normal">4 Cedar Ave, Thornhill, ON L3T 3W1, Canada</p>
             </div>
             <div className="">
-              {/* <FaPhoneVolume className="fill-white lg:w-5 lg:h-5 w-auto h-auto" />
-              <p className="text-white">647-449-9512</p> */}
 
               <a
                 href="tel:647-449-9512"
@@ -33,9 +31,7 @@ export default function ContactHome() {
               </a>
             </div>
             <div className="">
-              {/* <IoIosMail className="fill-white lg:w-5 lg:h-5 w-auto h-auto" />
-              <p className="text-white">primeconcretetoronto@gmail.com</p> */}
-
+              
               <a
                 href="mailto:primeconcretetoronto@gmail.com"
                 className="lg:text-lg text-sm flex gap-2 items-center justify-center lg:justify-start pb-6"

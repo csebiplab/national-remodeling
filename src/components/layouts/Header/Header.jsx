@@ -20,17 +20,17 @@ const Header = () => {
             />
           </Link>
 
-          <div className="w-full bg-[#FFF9EE]">
+          <div className="w-full bg-white lg:bg-[#FFF9EE]">
             <div className="w-full">
               <UpperNavbar />
             </div>
 
             <div className="hidden lg:block">
-            <div className="w-full h-[1px] bg-primary my-3 " />
+            <div className="w-full h-[1px] bg-white lg:bg-primary my-3 " />
             </div>
 
             <div className="w-full flex items-center justify-between">
-              <div className="hidden lg:block">
+              <div className="w-full hidden lg:block">
                 <ul className="flex items-center gap-5 pb-2 xl:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-11 5xl:gap-[50px]">
                   {UtilsModule.navMenus.map(
                     ({ mainMenu, url, subMenu, svg = null }, index) => (
@@ -48,7 +48,7 @@ const Header = () => {
                   )}
                 </ul>
               </div>
-              <div className="flex items-center gap-x-6 md:gap-x-7 lg:gap-x-8">
+              <div className="w-full sm:w-full lg:w-[250px] flex items-center justify-end  gap-x-6 md:gap-x-7 lg:gap-x-8">
                 <div className="flex items-center gap-2">
                   <Image
                     src="/assets/images/phone-call.png"

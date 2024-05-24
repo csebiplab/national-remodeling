@@ -80,20 +80,6 @@ const ProjectGallery = () => {
               spaceBetween: 10,
             },
           }}
-
-          // ,
-          //   360: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 20,
-          //   },
-          //   750: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 40,
-          //   },
-          //   950: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 50,
-          //   },
         >
           {galImgs.map((imgUrl, idx) => (
             <SwiperSlide key={idx} className="m-2">
@@ -127,19 +113,6 @@ const ProjectGallery = () => {
               spaceBetween: 10,
             },
           }}
-          // ,
-          //   360: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 20,
-          //   },
-          //   750: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 40,
-          //   },
-          //   950: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 50,
-          //   },
         >
           {galImgs2.map((imgUrl, i) => (
             <SwiperSlide key={i} className="m-2 ">

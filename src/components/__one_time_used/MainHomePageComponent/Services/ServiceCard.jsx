@@ -6,8 +6,8 @@ const ServiceCard = ({ serv }) => {
 
   return (
     <div className="py-[12.5px] md:py-0">
-      <div className="relative service__card">
-      <div className="text-center">
+      <div className=" service__card">
+      <div className="relative text-center">
         <Image
           src={imgUrl}
           width={430}
@@ -15,7 +15,7 @@ const ServiceCard = ({ serv }) => {
           alt="easy pools"
           className="W-full h-[240px]"
         />
-        <div className=" px-[6px]">
+        <div className="px-[6px]">
           <h5 className="py-3 text-left md:py-[15px] 2xl:text-[24px] lg:text-xl text-sm leading-normal">
             {title}
           </h5>

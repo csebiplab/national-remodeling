@@ -96,7 +96,7 @@ const ChoosetheRight = () => {
                 {usualPool.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex  gap-4 items-center mb-20px lg:mb-[36px]  leading-none  "
+                    className="flex  gap-4 items-center mb-[25px]  leading-none  "
                   >
                     <Image
                       src="/assets/images/x.png"
@@ -119,7 +119,7 @@ const ChoosetheRight = () => {
                 {easyPool.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex gap-4 items-center leading-none mb-20px lg:mb-[36px]"
+                    className="flex gap-4 items-center leading-none mb-[25px]"
                   >
                     <Image
                       src="/assets/images/r.png"

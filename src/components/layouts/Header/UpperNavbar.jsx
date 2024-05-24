@@ -32,7 +32,7 @@ const UpperNavbar = () => {
           </div>
         </div>
 
-        <div className=" w-full">
+        <div className="w-2/5">
         <div className="flex justify-end items-center gap-1 4xl:gap-1.5 5xl:gap-2">
           <h3 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
             Follow Us:

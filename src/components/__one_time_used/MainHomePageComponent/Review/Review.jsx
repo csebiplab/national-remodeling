@@ -33,18 +33,7 @@ const breakpoints = {
   },
 };
 
-/*
-""
-""
-""
-""
-""
-""
-""
-""
-""
 
-*/
 
 const reviews = [
   {

@@ -1,7 +1,6 @@
 import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
-import "./CostBudgeting.css";
 
 const CostBudgeting = () => {
   return (

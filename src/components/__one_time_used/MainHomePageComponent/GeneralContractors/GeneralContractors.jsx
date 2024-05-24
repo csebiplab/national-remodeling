@@ -21,7 +21,7 @@ const GeneralContractors = () => {
           <div className="md:col-span-4 flex items-center justify-center lg:justify-end pt-6 md:pt-0">
                 <div>
                     <Image src="/assets/images/GeneralContractors.png" alt="GeneralContractors" width={940} height={585}
-                    // className="w-full lg:w-[550px] xl:w-[600px] 2xl:w-[700px] 3xl:w-[800px] 4xl:w-[860px] 5xl:w-[940px] h-[323px] md:h-dvh"
+                    className="w-full lg:w-[550px] xl:w-[600px] 2xl:w-[700px] 3xl:w-[800px] 4xl:w-[860px] 5xl:w-[940px] h-[323px] md:h-dvh"
                     />
                 </div>
           </div>
