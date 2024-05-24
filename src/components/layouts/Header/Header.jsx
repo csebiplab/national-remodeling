@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="custom-container">
       <nav className="container py-1 main__header">
-        <div className="flex items-center justify-between gap-x-4 xl:gap-x-8 2xl:gap-x-12 3xl:gap-x-16 4xl:gap-x-20 5xl:gap-x-[90px]">
+        <div className="flex items-center gap-x-4 xl:gap-x-8 2xl:gap-x-12 3xl:gap-x-16 4xl:gap-x-20 5xl:gap-x-[90px]">
           <Link href="/">
             <Image
               src={logo}
@@ -20,18 +20,18 @@ const Header = () => {
             />
           </Link>
 
-          <div className="bg-[#FFF9EE]">
-            <div className="w-full flex items-center justify-between">
+          <div className="w-full bg-[#FFF9EE]">
+            <div className="w-full">
               <UpperNavbar />
             </div>
 
             <div className="hidden lg:block">
-            <div className="w-full h-[1px] bg-primary my-5 " />
+            <div className="w-full h-[1px] bg-primary my-3 " />
             </div>
 
             <div className="w-full flex items-center justify-between">
               <div className="hidden lg:block">
-                <ul className="flex items-center gap-5 xl:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-11 5xl:gap-[50px]">
+                <ul className="flex items-center gap-5 pb-2 xl:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-11 5xl:gap-[50px]">
                   {UtilsModule.navMenus.map(
                     ({ mainMenu, url, subMenu, svg = null }, index) => (
                       <li key={index}>

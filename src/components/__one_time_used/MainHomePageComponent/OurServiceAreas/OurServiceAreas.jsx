@@ -7,7 +7,7 @@ const OurServiceAreas = () => {
   return (
     <div className=" bg__color">
       <div className=" container">
-        <div className="mx-auto flex flex-col items-center justify-center pt-6">
+        <div className="mx-auto flex flex-col items-center justify-center common__padding__top">
           <HeadingIcon text={headingIconText.map__IconTxt} />
 
           <h3 className="mt-4 mb-[10px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">

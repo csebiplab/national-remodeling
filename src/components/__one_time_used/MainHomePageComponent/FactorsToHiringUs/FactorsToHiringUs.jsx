@@ -49,13 +49,13 @@ const FactorsToHiringUs = () => {
   return (
     <div className="bg-[#FFF9EE]">
       <div className="container">
-        <div className="py-6 lg:py-[55px]">
+        <div className="py-[60px] lg:py-[70px] xl:py-[80px] 2xl:py-[90px] 3xl:py-[100px] 4xl:py-[110px] 5xl:py-[120px]">
           <div className="text-center">
             <div className="flex justify-center items-center">
               <HeadingIcon text={headingIconText.factorsToHiringUs__IconTxt} />
             </div>
 
-            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
+            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
             Factors to Consider When Hiring a
             <span className="text-primary"> Toronto General Contractor</span>
             </h2>

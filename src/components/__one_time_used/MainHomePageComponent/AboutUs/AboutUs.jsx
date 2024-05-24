@@ -5,9 +5,9 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="bg-[#FFF9EE] py-6 md:py-10">
+    <div className="bg-[#FFF9EE]">
         <div className="container">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-[50px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-6 gap-x-[50px] py-[60px] lg:py-[70px] xl:py-[80px] 2xl:py-[90px] 3xl:py-[100px] 4xl:py-[110px] 5xl:py-[120px]">
         <div className="order-2 md:order-1">
           <div className="">
             <div className="flex md:justify-normal justify-center md:items-start items-center">
@@ -28,7 +28,7 @@ const AboutUs = () => {
           <div className="grid grid-cols-7 gap-x-4">
             <div className="col-span-4">
               <div>
-                <div className="mb-6 w-full h-[132px] flex justify-center">
+                <div className="mb-6 w-full h-[197px] flex justify-center">
                   <Image
                     src="/assets/images/About_Us_1.png"
                     alt="About us"

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const UpperNavbar = () => {
   return (
-    <nav className="container md:px-0 py-2 bg__uppernav hidden lg:block">
+    <nav className=" hidden lg:block">
       <div className="flex justify-between xl:gap-5 2xl:gap-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-[35px]">
-        <div className="flex items-center gap-x-4 xl:gap-x-5 2xl:gap-x-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-9">
+        <div className="w-full flex items-center gap-x-4 xl:gap-x-5 2xl:gap-x-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-9">
           <div className="flex items-center gap-x-1">
             <Image
               src="/assets/images/message.png"
@@ -32,7 +32,8 @@ const UpperNavbar = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-1 4xl:gap-1.5 5xl:gap-2">
+        <div className=" w-full">
+        <div className="flex justify-end items-center gap-1 4xl:gap-1.5 5xl:gap-2">
           <h3 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
             Follow Us:
           </h3>
@@ -73,6 +74,7 @@ const UpperNavbar = () => {
               alt="google"
             />
           </div>
+        </div>
         </div>
       </div>
     </nav>

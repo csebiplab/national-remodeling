@@ -7,7 +7,7 @@ const OurExperience = () => {
     <div>
       <div className=" bg-[#FFF9EE]">
         <div className=" container">
-          <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] 2xl:py-[100px] lg:py-[70px] py-[50px]">
+          <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] common__padding__top">
             <div className="md:col-span-3 flex justify-center items-center ">
               <div className="">
                 <Image
@@ -15,7 +15,7 @@ const OurExperience = () => {
                   width={620}
                   height={510}
                   alt="Our Experience image"
-                  className="w-dvw lg:h-[900px] xl:h-full "
+                  className="w-dvw md:h-[550px] lg:h-[600px] xl:h-full "
                 />
               </div>
             </div>

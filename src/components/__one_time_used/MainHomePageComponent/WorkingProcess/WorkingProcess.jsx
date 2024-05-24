@@ -68,7 +68,7 @@ const WorkingProcess = () => {
   return (
     <div className="bg-[#FFF9EE]">
       <div className="container">
-        <div className="py-6 lg:py-[55px]">
+        <div className="common__padding__top">
           <div className="text-center">
             <div className="flex justify-center items-center">
               <HeadingIcon text={headingIconText.workingProcess__IconTxt} />

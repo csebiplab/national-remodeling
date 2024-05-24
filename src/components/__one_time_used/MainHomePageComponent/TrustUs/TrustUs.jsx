@@ -15,7 +15,7 @@ const TrustUs = () => {
                   width={620}
                   height={510}
                   alt="Our Experience image"
-                  className=""
+                  className="w-dvw md:h-[530px] lg:h-[570px] xl:h-full "
                 />
               </div>
             </div>

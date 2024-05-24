@@ -8,7 +8,7 @@ const GeneralContractors = () => {
   return (
     <div className="bg__color">
       <div className="full__section_l_p pr-3 md:pr-8 lg:pr-0">
-        <div className="grid grid-cols-1 md:grid-cols-7  py-[50px] lg:py-[70px] 2xl:py-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-7 common__padding__top">
           <div className="md:col-span-3 ">
                 <div className="flex md:justify-normal justify-center md:items-start items-center">
                     <HeadingIcon text={headingIconText.GeneralContractors__IconTxt}/>

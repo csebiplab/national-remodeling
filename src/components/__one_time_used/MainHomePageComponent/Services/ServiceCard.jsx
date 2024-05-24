@@ -5,7 +5,8 @@ const ServiceCard = ({ serv }) => {
   const { imgUrl, title, desc } = serv ?? {};
 
   return (
-    <div className="service__card">
+    <div className="py-[12.5px] md:py-0">
+      <div className="relative service__card">
       <div className="text-center">
         <Image
           src={imgUrl}
@@ -14,16 +15,17 @@ const ServiceCard = ({ serv }) => {
           alt="easy pools"
           className="W-full h-[240px]"
         />
-        <div className="px-[6px]">
+        <div className=" px-[6px]">
           <h5 className="py-3 text-left md:py-[15px] 2xl:text-[24px] lg:text-xl text-sm leading-normal">
             {title}
           </h5>
-          <p className="text-lg text-left font-normal leading-normal">{desc}</p>
-          <div className="pb-5 mt-5 flex justify-center items-b relative">
-            <CommonButton />
+          <p className="text-lg text-left font-normal leading-normal pb-24">{desc}</p>
+          <div className="absolute bottom-0 left-0 right-0 pb-[20px] mt-20 flex justify-center items-end ">
+            <CommonButton/>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

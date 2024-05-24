@@ -88,7 +88,7 @@ const ChoosetheRight = () => {
               </div>
             </div>
 
-            <div className=" border-2 shadow bg-[#FFF9EE] rounded-lg">
+            <div className=" border-2 my-6 md:my-0 shadow bg-[#FFF9EE] rounded-lg">
               <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-[22px] font-bold">
                 Usual General Contractors
               </h2>

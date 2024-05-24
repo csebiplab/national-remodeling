@@ -46,7 +46,7 @@ const ProjectGallery = () => {
 
   return (
     <div className="bg-[#FFF9EE]">
-      <div className="custom-container  py-[40px] 3xl:py-[60px]">
+      <div className="custom-container common__padding__top">
         <div className="">
           <div className=" flex flex-col justify-center items-center ">
             <HeadingIcon text={headingIconText.gallery__IconTxt} />
@@ -98,8 +98,8 @@ const ProjectGallery = () => {
           {galImgs.map((imgUrl, idx) => (
             <SwiperSlide key={idx} className="m-2">
               <Image
-                width={400}
-                height={400}
+                width={360}
+                height={280}
                 src={imgUrl}
                 alt="gallery"
                 className="object-contain w-full h-auto mx-auto"
@@ -144,8 +144,8 @@ const ProjectGallery = () => {
           {galImgs2.map((imgUrl, i) => (
             <SwiperSlide key={i} className="m-2 ">
               <Image
-                width={400}
-                height={400}
+                width={360}
+                height={280}
                 src={imgUrl}
                 alt="gallery"
                 className="object-contain w-full h-auto mx-auto "

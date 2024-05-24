@@ -7,8 +7,8 @@ import "./GiveUsFeedback.css";
 
 export default function ContactHome() {
   return (
-    <div className="pt-12 lg:mt[120px] bg__color">
-      <div className="grid grid-cols-1 lg:grid-cols-6 items-center gap-x-10">
+    <div className="bg__color">
+      <div className="grid grid-cols-1 lg:grid-cols-6 items-center gap-x-10 common__padding__top">
         <div
           className="order-2 lg:order-1 py-6 lg:py-28 px-6 lg:pl-[71px] lg:pr-2 lg:col-span-3 bg-[#F5F8FA] text-white"
         >

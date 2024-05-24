@@ -7,7 +7,7 @@ const Quality = () => {
     <div>
       <div className=" bg-[#FFF9EE]">
         <div className=" container">
-          <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] 2xl:py-[100px] lg:py-[70px] py-[50px]">
+          <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] common__padding__top">
             
             <div className="md:col-span-3">
               <div className="flex md:justify-normal justify-center md:items-start items-center text-[14px]">
@@ -29,7 +29,7 @@ const Quality = () => {
                   width={620}
                   height={510}
                   alt="Quality image"
-                  className=""
+                  className="w-dvw md:h-[550px] lg:h-[600px] xl:h-full "
                 />
               </div>
             </div>

@@ -7,7 +7,7 @@ const BestServices = () => {
     <div>
       <div className=" bg-[#FFF9EE]">
         <div className=" container">
-          <div className="grid lg:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] 2xl:py-[100px] lg:py-[70px] py-[50px]">
+          <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px]  common__padding__top">
             <div className="md:col-span-3 flex justify-center items-center">
               <div className="">
                 <Image
@@ -16,7 +16,8 @@ const BestServices = () => {
                   height={510}
                   alt="best services image"
                   // className="w-[350px] md:w-[390px] lg:w-[430px] xl:w-[470px] 2xl:w-[510px] 3xl:w-[550px] 4xl:w-[580px] 5xl:w-[620px] h-[290px] md:h-[320px] lg:[350px] xl:h-[380px] 2xl:h-[420px] 3xl:h-[450px] 4xl:h-[480px] 5xl:h-[510px]"
-                  className="w-dvw lg:h-[900px] xl:h-full "
+                  // className="w-dvw lg:h-[900px] xl:h-full "
+                  className="w-dvw md:h-[800px] lg:h-[840px] xl:h-auto 2xl:h-full "
                   
                 />
               </div>
