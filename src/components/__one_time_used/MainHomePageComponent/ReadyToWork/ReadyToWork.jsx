@@ -1,13 +1,12 @@
 import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
-import "../ReadyToWork/ReadyToWork.css";
 
 const ReadyToWork = () => {
   return (
     <div className="bg__color">
       <div className="full__section_r_p">
-        <div className=" grid md:grid-cols-7 grid-cols-1 md:gap-20 lg:gap-44 2xl:py-[100px] lg:py-[70px] py-[50px]">
+        <div className=" grid md:grid-cols-7 grid-cols-1 md:gap-20 lg:gap-44 common__padding__top">
           <div className="md:col-span-4 flex items-center ">
             <div className="">
               <Image
@@ -20,7 +19,7 @@ const ReadyToWork = () => {
             </div>
           </div>
 
-          <div className="md:col-span-3 flex flex-col justify-center items-center md:items-start">
+          <div className="md:col-span-3 flex flex-col justify-center items-center md:items-start pt-6 md:pt-0">
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.readyToWork__IconTxt} />
             </div>

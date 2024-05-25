@@ -15,7 +15,7 @@ const TrustUs = () => {
                   width={620}
                   height={510}
                   alt="Our Experience image"
-                  className=""
+                  className="w-dvw md:h-[530px] lg:h-[570px] xl:h-full "
                 />
               </div>
             </div>
@@ -24,7 +24,7 @@ const TrustUs = () => {
               <div className="flex md:justify-normal justify-center md:items-start items-center text-[14px]">
                 <HeadingIcon text={headingIconText.trustUs__IconTxt} />
               </div>
-              <p className="mt-4 lg:mb-[25px] mb-[15px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center">
+              <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
               Trusted General Contractors{" "}
                 <span className="text-primary">in Toronto</span>
               </p>

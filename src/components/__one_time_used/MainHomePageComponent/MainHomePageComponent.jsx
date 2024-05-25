@@ -49,11 +49,11 @@ const MainHomePageComponent = () => {
       </section>
 
       <section>
-        <ProjectGallery/>
+        <OurExperience/>
       </section>
 
       <section>
-        <OurExperience/>
+        <ProjectGallery/>
       </section>
 
       <section>

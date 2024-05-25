@@ -53,11 +53,11 @@ const PartnerNRatings = () => {
                         src="/assets/images/star.png"
                         width={60}
                         height={60}
-                        className="w-[60px] h-[60px]"
+                        className="w-[34px] lg:w-9 xl:w-10 2xl:w-11 3xl:w-12 4xl:w-14 5xl:w-[60px] h-[35px] lg:h-9 xl:h-10 2xl:h-11 3xl:h-12 4xl:h-14 5xl:h-[60px]"
                         alt="star"
                         loading="lazy"
                       />
-                      <span className="font-semibold md:text-3xl xl:text-4xl 2xl:text-[40px] text-dark-400">
+                      <span className="font-semibold text-3xl 4xl:text-4xl 5xl:text-[40px] text-dark-400">
                         99%
                       </span>
                     </div>

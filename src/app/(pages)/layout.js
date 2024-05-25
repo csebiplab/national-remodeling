@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "Toronto Ontario",
   description:
-    "National Remodelling & General Contracting Inc. is one of the best remodeling & contracting companies in Toronto. We’ve been in business for the past 15 years serving the GTA and surrounding areas in both residential and commercial capacity.",
+    "The general contractors in Toronto of National Remodelling & General Contracting Inc. offer top-notch #1 remodeling and construction services.",
 };
 
 export default function RootLayout({ children }) {

@@ -35,6 +35,10 @@ a {
   @apply tracking-wider py-3 px-6 text-white font-medium text-lg bg-primary hover:bg-primary-600 active:bg-primary-700 duration-150;
 }
 
+.common__padding__top{
+  @apply  pt-14 lg:pt-[70px] xl:pt-[80px] 2xl:pt-[90px] 3xl:pt-[100px] 4xl:pt-[110px] 5xl:pt-[120px]
+}
+
 @layer base {
   h1,
   h2,
@@ -125,3 +129,5 @@ a {
 img {
   @apply select-none;
 }
+
+

@@ -7,7 +7,7 @@ const ProjectUs = () => {
   return (
     <div className="bg__color">
       <div className="full__section_r_p">
-        <div className=" grid md:grid-cols-7 grid-cols-1 gap-10 2xl:py-[100px] lg:py-[70px] py-[50px]">
+        <div className=" grid md:grid-cols-7 grid-cols-1 gap-10 common__padding__top">
           <div className="md:col-span-4 flex items-center ">
             <div className="">
               <Image
@@ -24,7 +24,7 @@ const ProjectUs = () => {
             <div className="flex md:justify-normal justify-center md:items-start items-center">
               <HeadingIcon text={headingIconText.projectUs__IconTxt} />
             </div>
-            <p className="mt-4 lg:mb-[25px] mb-[15px] text-lg md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center">
+            <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
             Start Your Project with Our <span className="text-primary">General Contractor Toronto</span>
             </p>
             <p className=" 2xl:text-[16px] md:text-[14px] text-[10px] 2xl:leading-[35px] lg:leading-[25px] leading-[20px] md:text-start text-center">

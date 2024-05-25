@@ -68,13 +68,13 @@ const WorkingProcess = () => {
   return (
     <div className="bg-[#FFF9EE]">
       <div className="container">
-        <div className="py-6 lg:py-[55px]">
+        <div className="common__padding__top">
           <div className="text-center">
             <div className="flex justify-center items-center">
               <HeadingIcon text={headingIconText.workingProcess__IconTxt} />
             </div>
 
-            <h2 className="lg:leading-10 lg:text-4xl text-lg mt-[9px] mb-[10px] xl:mt-[15px] xl:mb-[25px] text-center">
+            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
             <span className="text-primary">Working Process</span> of Our Toronto General Contractors
             </h2>
           </div>
