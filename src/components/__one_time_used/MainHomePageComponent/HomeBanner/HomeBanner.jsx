@@ -17,7 +17,7 @@ const HomeBanner = () => {
                   General Contracting Inc. offer top-notch #1 remodeling and
                   construction services.
                 </p>
-                <div className="flex justify-center md:justify-start pt-6">
+                <div className="flex justify-center md:justify-start py-6">
                   <button
                     type="submit"
                     className="w-[200px] lg:w-[274px] rounded-md bg-primary px-6 lg:px-10 py-4 font-semibold flex justify-center items-center"
