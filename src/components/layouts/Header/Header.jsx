@@ -8,7 +8,7 @@ import logo from "../../../../public/assets/logo/Logo.png";
 const Header = () => {
   return (
     <header className="custom-container">
-      <nav className="container py-1 main__header">
+      <nav className=" pl-6 md:pl-8 lg:pl-24 xl:pl-28 2xl:pl-32 3xl:pl-40 4xl:pl-52 5xl:pl-[285px]  py-1 main__header">
         <div className="flex items-center gap-x-4 xl:gap-x-8 2xl:gap-x-12 3xl:gap-x-16 4xl:gap-x-20 5xl:gap-x-[90px]">
           <Link href="/">
             <Image
@@ -16,11 +16,11 @@ const Header = () => {
               width={115}
               height={57}
               alt="logo"
-              className="bg-white w-[115px] lg:w-[130px] xl:w-[140px] 2xl:w-[150px] 3xl:w-[160px] 4xl:w-[170px] 5xl:w-[180px] h-[57px] 2xl:h-[60px] 3xl:h-[70px] 4xl:h-[80px] 5xl:h-[90px]"
+              className="w-[115px] lg:w-[130px] xl:w-[140px] 2xl:w-[150px] 3xl:w-[160px] 4xl:w-[170px] 5xl:w-[180px] h-[57px] 2xl:h-[60px] 3xl:h-[70px] 4xl:h-[80px] 5xl:h-[90px]"
             />
           </Link>
 
-          <div className="w-full  lg:bg-[#FFF9EE]">
+          <div className=" pr-6 md:pr-8 lg:pr-24 xl:pr-28 2xl:pr-32 3xl:pr-40 4xl:pr-52 5xl:pr-[285px] w-full bg-white lg:bg-[#FFF9EE]">
             <div className="w-full">
               <UpperNavbar />
             </div>
