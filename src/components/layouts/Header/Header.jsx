@@ -3,65 +3,77 @@ import UpperNavbar from "./UpperNavbar";
 import "./Header.css";
 import Link from "next/link";
 import { UtilsModule } from "@/utils/nav-menus";
-import WebBrandSvg from "../../ui/WebBrandSvg";
-import logo from "../../../../public/assets/logo/logo.jpg"
+import logo from "../../../../public/assets/logo/Logo.png";
 
 const Header = () => {
   return (
     <header className="custom-container">
-      {/* Social small nav */}
-      <UpperNavbar />
-
-      {/* Main navbar */}
-      {/* <nav className="px-5 md:px-10 xl:px-20 2xl:px-[120px] py-2 main__header"> */}
       <nav className="container py-1 main__header">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center gap-x-4 xl:gap-x-8 2xl:gap-x-12 3xl:gap-x-16 4xl:gap-x-20 5xl:gap-x-[90px]">
           <Link href="/">
-            {/* <WebBrandSvg /> */}
-            <Image src={logo} width={200} height={200} alt="logo"/>
+            <Image
+              src={logo}
+              width={115}
+              height={57}
+              alt="logo"
+              className="bg-white w-[115px] lg:w-[130px] xl:w-[140px] 2xl:w-[150px] 3xl:w-[160px] 4xl:w-[170px] 5xl:w-[180px] h-[57px] 2xl:h-[60px] 3xl:h-[70px] 4xl:h-[80px] 5xl:h-[90px]"
+            />
           </Link>
-          <div className="hidden lg:block">
-            <ul className="flex items-center gap-x-3">
-              {UtilsModule.navMenus.map(
-                ({ mainMenu, url, subMenu, svg = null }, index) => (
-                  <li key={index}>
-                    <Link
-                      href={url}
-                      className={`${
-                        svg ? "flex items-center gap-x-1" : ""
-                      } !text-lg text-black font-normal`}
-                    >
-                      {mainMenu} {svg}
-                    </Link>
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
-          <div className="flex items-center gap-x-6 md:gap-x-7 lg:gap-x-8">
-            <div className="flex items-center gap-2">
-              <Image
-                src="/assets/images/phone-call.png"
-                width={28}
-                height={28}
-                alt="canada leaf"
-                className="w-[28px] h-[28px]"
-              />
-              <a
-                href="tel:+1(647) 449 9512"
-                className="text-secondary font-bold xs:text-base sm:text-xl md:text-lg lg:text-[20px] "
-              >
-                +1(647) 449 9512
-              </a>
+
+          <div className="w-full  lg:bg-[#FFF9EE]">
+            <div className="w-full">
+              <UpperNavbar />
             </div>
-            <div className="block lg:hidden">
-              <Image
-                src="/assets/icons/menu.png"
-                width={22}
-                height={22}
-                alt="Menu"
-                className="w-[22px] h-[22px]"
-              />
+
+            <div className="hidden lg:block">
+            <div className="w-full h-[1px] bg-white lg:bg-primary my-3 " />
+            </div>
+
+            <div className="w-full flex items-center justify-between">
+              <div className="w-full hidden lg:block">
+                <ul className="flex items-center gap-5 pb-2 xl:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-11 5xl:gap-[50px]">
+                  {UtilsModule.navMenus.map(
+                    ({ mainMenu, url, subMenu, svg = null }, index) => (
+                      <li key={index}>
+                        <Link
+                          href={url}
+                          className={`${
+                            svg ? "flex items-center gap-x-1" : ""
+                          } text-[14px] 4xl:text-[16px] 5xl:text-lg text-black font-normal`}
+                        >
+                          {mainMenu} {svg}
+                        </Link>
+                      </li>
+                    )
+                  )}
+                </ul>
+              </div>
+              <div className="w-full sm:w-full lg:w-[250px] flex items-center justify-end  gap-x-6 md:gap-x-7 lg:gap-x-8">
+                <div className="flex items-center gap-2">
+                  <Image
+                    src="/assets/images/phone-call.png"
+                    width={28}
+                    height={28}
+                    alt="canada leaf"
+                    className="w-[23px] 4xl:w-[26px] 5x:w-[28px] h-[23px] 4xl:h-[26px] 5xl:h-[28px]"
+                  />
+                  <a
+                    href="tel:+1(647) 449 9512"
+                    className="text-black font-bold xs:text-base sm:text-[18px] 4xl:text-lg 5xl:text-[20px] "
+                  >
+                    +1(647) 449 9512
+                  </a>
+                </div>
+                <div className="block lg:hidden">
+                  <Image
+                    src="/assets/icons/menu.png"
+                    width={22}
+                    height={22}
+                    alt="Menu"
+                    className="w-[22px] h-[22px]"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

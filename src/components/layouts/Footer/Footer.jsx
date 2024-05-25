@@ -3,11 +3,10 @@ import Link from "next/link";
 
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
-import { IoIosMail } from "react-icons/io";
-
+import { TfiEmail } from "react-icons/tfi";
 import "./Footer.css";
 
-const footerLinks = [
+const footerLinks1 = [
   {
     cat: "Company",
     links: [
@@ -17,7 +16,9 @@ const footerLinks = [
       { label: "Careers", url: "/" },
       { label: "Sitemap", url: "/" },
     ],
-  },
+  }
+];
+const footerLinks2 = [
   {
     cat: "Ours Services",
     links: [
@@ -177,16 +178,15 @@ const footerIcon = [
 const Footer = () => {
   return (
     <div className="">
-      
-      <div className="footer__bg px-5 lg:px-[35px] !text-white">
-      <div className="top-footer-overlay"></div>
-        <footer className="container top-footer-content !z-50 pt-[50px] xl:pt-[90px] 2xl:pt-[311px] pb-9 md:pb-20 text-white">
+      <div className="relative Footer__bg px-5 lg:px-[30px] !text-white">
+        <div className="top-footer-overlay"></div>
+        <footer className="container top-footer-content !z-50 py-[24px] md:py-[40px] lg:py-[55px] xl:py-[70px] 2xl:py-[85px] 3xl:py-[100px] 4xl:py-[110px] 5xl:py-[120px] text-white">
           <div className="">
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-12 2xl:gap-x-[126px] justify-center">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-12 2xl:gap-x-[px] justify-center">
               <div className="w-full lg:w-auto">
                 <div className="mx-auto flex justify-center">
                   <Image
-                    src="/assets/logo/logo.jpg"
+                    src="/assets/logo/Logo.png"
                     height={311}
                     width={141}
                     alt="Logo"
@@ -194,12 +194,14 @@ const Footer = () => {
                   />
                 </div>
                 <p className="text-white pt-6 leading-[200%] text-center md:text-start">
-                We are the top-rated general contractors in Toronto for expert home renovations and construction projects.
+                  We are the top-rated general contractors in Toronto for expert
+                  home renovations and construction projects.
                 </p>
               </div>
 
               {/* Mapping through footer links */}
-              {footerLinks.map((category, index) => (
+              <div>
+              {footerLinks1.map((category, index) => (
                 <div
                   key={index}
                   className="mt-5 md:mt-0 text-center md:text-start"
@@ -218,35 +220,58 @@ const Footer = () => {
                   </ul>
                 </div>
               ))}
+              </div>
+              <div>
+              {footerLinks2.map((category, index) => (
+                <div
+                  key={index}
+                  className="mt-5 md:mt-0 text-center md:text-start"
+                >
+                  <h3 className="text-white !text-xl mb-5">{category.cat}</h3>
+                  <ul>
+                    {category.links.map((link, idx) => (
+                      <li key={idx} className="mb-6">
+                        <Link href={link.url}>
+                          <span className="text-white !text-base !font-normal">
+                            {link.label}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+              </div>
 
               <div className="w-full lg:w-auto text-center md:text-start">
                 <h3 className="text-white !text-xl my-5">Contact Us</h3>
                 <ul className="text-center md:text-start mx-auto">
                   <li>
                     <Link
-                      href=""
+                      href="Cedar Ave, Thornhill, ON L3T 3W1"
                       className="footer-link items-center justify-center md:justify-normal text-base text-white"
                     >
-                      <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" /> 4 Cedar Ave, Thornhill, ON L3T 3W1
+                      <FaMapMarkedAlt className="h-4 w-4 lg:h-6 lg:w-6" /> 4
+                      Cedar Ave, Thornhill, ON L3T 3W1
                     </Link>
                   </li>
                   <li className="lg:py-8 xs:py-[12px]">
-                    <a
-                      href="tel:647-449-9512"
+                    <Link
+                      href="tel:+1 (416) 996-2409"
                       className="footer-link items-center justify-center md:justify-normal text-base text-white"
                     >
-                      <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
-                      +1 (416) 996-2409
-                    </a>
+                      <FaPhoneVolume className="h-4 w-4 lg:h-6 lg:w-6" /> +1
+                      (416) 996-2409
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="mailto:primeconcretetoronto@gmail.com"
-                      className="footer-link items-center justify-center md:justify-normal text-base lg:text-[12px] text-white"
+                    <Link
+                      href="mailto:informational@yahoo.com"
+                      className="footer-link items-center justify-center md:justify-normal text-base text-white"
                     >
-                      <IoIosMail className="lg:h-7 lg:w-7 h-4 w-4" />{" "}
+                      <TfiEmail className="h-4 w-4 lg:h-6 lg:w-6" />
                       informational@yahoo.com
-                    </a>
+                    </Link>
                   </li>
                   <div className="mt-[38px]">
                     <div className="">
@@ -265,7 +290,7 @@ const Footer = () => {
 
                     <div className="text-center lg:text-left">
                       <p className="text-xs lg:text-base text-white">
-                      © All Copyright 2024 by General Contractors
+                        © All Copyright 2024 by General Contractors
                       </p>
                       <ul className="text-sm lg:text-base flex justify-evenly gap-2 mt-4">
                         <li className="text-white"> Terms & Condition</li>
@@ -278,6 +303,19 @@ const Footer = () => {
             </div>
           </div>
         </footer>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1350"
+          height="280"
+          viewBox="0 0 1350 280"
+          fill="none"
+          className="absolute z-50 bottom-0 right-0 left-0 w-full h-auto 5xl:w-[1350px] 5xl:h-[280px] mx-auto text-primary"
+        >
+          <path
+            d="M1526 280V265.694H1523.29V264.738H1519.73V261.067H1511.79V263.321H1507.76V266.991H1503.28V261.835H1499.16V252.599H1465.79V235.834H1461.82L1458.54 232.881H1456.97V229.62H1445.15V232.881H1443.33L1440.55 235.834H1437.12V245.07H1429.31V258.335H1419.16V241.758H1417.27V234.776H1413.49V212.446H1411.88L1408.26 209.185H1393.01L1389.92 212.446H1388.03V236.722H1379.78V217.175H1363.99L1354 223.457V244.353H1350.98V228.067H1347.73V226.769H1340.8V228.067H1338.12V211.541H1333.43V210.704H1328.86V206.914H1321.71V210.704H1317.68V211.541H1312.98V215.092H1309.2V193.239H1306.08V191.822H1293.35V193.239H1283.08V191.822H1270.35V193.239H1267.9V229.603H1263.64V204.729H1234.4V246.658H1225.8V219.599H1219.56V217.755H1205.04V219.599H1198.9V250.994H1187.87V225.079H1150.69V230.286H1138.06V235.117H1124.73V249.253H1085.44V237.337H1070.73V232.676H1051.1V237.712H1036.35V209.048H966.912V263.389H950.78V256.321H923.433V247.017H906.608V242.544H898.196V247.017H883.451L872.234 250.738L857.583 115.134C866.531 114.708 873.211 113.188 873.211 111.362C873.211 110.679 872.266 110.03 870.659 109.484C872.234 108.715 873.211 107.64 873.211 106.428C873.211 104.601 870.942 103.047 867.823 102.501C868.359 102.211 868.674 101.818 868.674 101.391C868.674 100.521 867.319 99.8037 865.681 99.8037H858.718L854.905 0L846.651 99.8037H839.593C837.955 99.8037 836.6 100.521 836.6 101.391C836.6 101.818 836.946 102.211 837.451 102.501C834.331 103.047 832.063 104.601 832.063 106.428C832.063 107.64 833.071 108.715 834.615 109.484C832.977 110.047 832.063 110.679 832.063 111.362C832.063 112.983 837.325 114.383 844.792 114.964L834.3 225.813H830.803V232.693H817.475V248.143H791.514V262.279H785.905V251.114H780.297V230.269H773.271V225.437H756.447V230.269H750.145V259.428C657.641 208.826 562.428 243.261 534.103 255.706V240.939H512.584V230.269H490.592V216.867H461.133C458.802 216.867 461.133 236.961 461.133 236.961H433.534V229.262H419.04V219.343H412.96V217.362H405.02V214.392H393.803V219.855H386.777V248.639H379.31V257.823H358.736V201.246H346.102V197.268H339.076V194.537H334.413V201.485H322.724V249.373H297.487V252.343H285.326V213.88H279.245V208.417H268.942V201.468H253.976V204.2H246.509V207.17H236.206V210.397H231.985V214.375H227.322V216.611H216.105V219.838H213.301V222.808H210.024V262.399H203.66V237.388H197.894V235.698H184.472V237.388H178.801V266.394H168.498V221.904H156.935V218.984C155.99 219.018 155.045 219.053 154.037 219.053V221.904H142.222V261.852H134.597V257.26H122.215V250.363H92.4094V264.652H76.9396V260.606H71.4889V258.472H64.1793V260.606H59.7369V270.013H46.1259V274.878H36.2328V270.832H27.8835V265.745H17.1712V270.013H0V279.983H1526V280Z"
+            fill="#815C1D"
+          />
+        </svg>
       </div>
 
       {/* creater company credit */}
@@ -285,7 +323,7 @@ const Footer = () => {
         <div className="container flex flex-col lg:flex-row justify-between items-center py-2">
           <div className="flex justify-center items-center mb-2 lg:mb-0">
             <p className="text-xs md:text-base font-semibold text-white mr-[10px] lg:mr-4">
-            WEBSITE DESIGN AND SEO BY :-
+              WEBSITE DESIGN AND SEO BY :-
             </p>
             <Image
               src="/assets/footer/gokundu-logo.png"
@@ -297,7 +335,7 @@ const Footer = () => {
           </div>
           <div className="text-center lg:text-left hidden md:block">
             <p className="text-xs lg:text-base text-white">
-            © All Copyright 2024 by General Contractors
+              © All Copyright 2024 by General Contractors
             </p>
           </div>
           <div className="text-center lg:text-right hidden md:block">

@@ -13,6 +13,12 @@ import KeyServices from "./KeyServices/KeyServices";
 import Services from "./Services/Services";
 import Review from "./Review/Review";
 import ProjectGallery from "./ProjectGallery/ProjectGallery";
+import ChoosetheRight from "./ChoosetheRight/ChoosetheRight";
+import AboutUs from "./AboutUs/AboutUs";
+import WorkingProcess from "./WorkingProcess/WorkingProcess";
+import ReadyToWork from "./ReadyToWork/ReadyToWork";
+import CostBudgeting from "./CostBudgeting/CostBudgeting";
+import FactorsToHiringUs from "./FactorsToHiringUs/FactorsToHiringUs";
 
 const MainHomePageComponent = () => {
   return (
@@ -31,6 +37,10 @@ const MainHomePageComponent = () => {
       </section>
 
       <section>
+        <AboutUs/>
+      </section>
+
+      <section>
         <KeyServices/>
       </section>
 
@@ -39,11 +49,11 @@ const MainHomePageComponent = () => {
       </section>
 
       <section>
-        <ProjectGallery/>
+        <OurExperience/>
       </section>
 
       <section>
-        <OurExperience/>
+        <ProjectGallery/>
       </section>
 
       <section>
@@ -51,7 +61,19 @@ const MainHomePageComponent = () => {
       </section>
 
       <section>
+        <WorkingProcess/>
+      </section>
+
+      <section>
         <Quality/>
+      </section>
+
+      <section>
+        <ReadyToWork/>
+      </section>
+
+      <section>
+        <CostBudgeting/>
       </section>
 
       <section>
@@ -60,6 +82,14 @@ const MainHomePageComponent = () => {
 
       <section>
         <Review/>
+      </section>
+
+      <section>
+        <FactorsToHiringUs/>
+      </section>
+
+      <section>
+        <ChoosetheRight/>
       </section>
 
       <section>

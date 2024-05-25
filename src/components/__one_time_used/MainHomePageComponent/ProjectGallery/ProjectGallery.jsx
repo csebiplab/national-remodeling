@@ -13,7 +13,6 @@ import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
 import "swiper/css/grid";
 
-
 const ProjectGallery = () => {
   const galImgs = [
     "/assets/gallery/Gallery_1.png",
@@ -27,8 +26,7 @@ const ProjectGallery = () => {
     "/assets/gallery/Gallery_9.png",
     "/assets/gallery/Gallery_10.png",
     "/assets/gallery/Gallery_11.png",
-    "/assets/gallery/Gallery_12.png"
-    
+    "/assets/gallery/Gallery_12.png",
   ];
 
   const galImgs2 = [
@@ -43,19 +41,20 @@ const ProjectGallery = () => {
     "/assets/gallery/Gallery_9.png",
     "/assets/gallery/Gallery_10.png",
     "/assets/gallery/Gallery_11.png",
-    "/assets/gallery/Gallery_12.png"
+    "/assets/gallery/Gallery_12.png",
   ];
 
   return (
     <div className="bg-[#FFF9EE]">
-      <div className="custom-container 3xl:py-[85px] py-[50px]">
+      <div className="custom-container common__padding__top">
         <div className="">
           <div className=" flex flex-col justify-center items-center ">
             <HeadingIcon text={headingIconText.gallery__IconTxt} />
 
             <div>
-              <p className="text-black text-lg md:text-3xl lg:text-4xl 3xl:pb-[30px] pb-[25px] text-center ">
-              Gallery of <span className="text-primary">Our Past Projects</span>
+              <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
+                Gallery of{" "}
+                <span className="text-primary">Our Past Projects</span>
               </p>
             </div>
           </div>
@@ -81,29 +80,15 @@ const ProjectGallery = () => {
               spaceBetween: 10,
             },
           }}
-
-          // ,
-          //   360: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 20,
-          //   },
-          //   750: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 40,
-          //   },
-          //   950: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 50,
-          //   },
         >
           {galImgs.map((imgUrl, idx) => (
             <SwiperSlide key={idx} className="m-2">
               <Image
-                width={400}
-                height={400}
-                className="object-contain w-auto h-auto mx-auto"
+                width={360}
+                height={280}
                 src={imgUrl}
                 alt="gallery"
+                className="object-contain w-full h-auto mx-auto"
               />
             </SwiperSlide>
           ))}
@@ -128,28 +113,15 @@ const ProjectGallery = () => {
               spaceBetween: 10,
             },
           }}
-          // ,
-          //   360: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 20,
-          //   },
-          //   750: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 40,
-          //   },
-          //   950: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 50,
-          //   },
         >
           {galImgs2.map((imgUrl, i) => (
             <SwiperSlide key={i} className="m-2 ">
               <Image
-                width={400}
-                height={400}
-                className="object-contain w-auto h-auto mx-auto "
+                width={360}
+                height={280}
                 src={imgUrl}
                 alt="gallery"
+                className="object-contain w-full h-auto mx-auto "
               />
             </SwiperSlide>
           ))}
