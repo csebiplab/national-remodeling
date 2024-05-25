@@ -16,11 +16,11 @@ const Header = () => {
               width={115}
               height={57}
               alt="logo"
-              className="w-[115px] lg:w-[130px] xl:w-[140px] 2xl:w-[150px] 3xl:w-[160px] 4xl:w-[170px] 5xl:w-[180px] h-[57px] 2xl:h-[60px] 3xl:h-[70px] 4xl:h-[80px] 5xl:h-[90px]"
+              className="bg-white w-[115px] lg:w-[130px] xl:w-[140px] 2xl:w-[150px] 3xl:w-[160px] 4xl:w-[170px] 5xl:w-[180px] h-[57px] 2xl:h-[60px] 3xl:h-[70px] 4xl:h-[80px] 5xl:h-[90px]"
             />
           </Link>
 
-          <div className="w-full bg-white lg:bg-[#FFF9EE]">
+          <div className="w-full  lg:bg-[#FFF9EE]">
             <div className="w-full">
               <UpperNavbar />
             </div>

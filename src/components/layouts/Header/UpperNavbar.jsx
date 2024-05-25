@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const UpperNavbar = () => {
   return (
-    <nav className=" hidden lg:block">
+    <nav className=" hidden lg:block ">
       <div className="flex justify-between xl:gap-5 2xl:gap-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-[35px]">
         <div className="w-full flex items-center gap-x-4 xl:gap-x-5 2xl:gap-x-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-9">
           <div className="flex items-center gap-x-1">

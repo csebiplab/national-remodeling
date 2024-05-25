@@ -8,9 +8,10 @@ import "./GiveUsFeedback.css";
 export default function ContactHome() {
   return (
     <div className="bg__color">
-      <div className="grid grid-cols-1 lg:grid-cols-6 items-center gap-x-10 common__padding__top">
+      <div className="custom-container">
+      <div className="grid grid-cols-1 lg:grid-cols-6 items-center common__padding__top">
         <div
-          className="order-2 lg:order-1 py-6 lg:py-28 px-6 lg:pl-[71px] lg:pr-2 lg:col-span-3 bg-[#F5F8FA] text-white"
+          className="order-2 lg:order-1 py-[30px] lg:py-[50px] xl:py-[80px] 3xl:py-[100px] 5xl:py-[130px] px-6 pl-[30px] md:pl-[60] lg:pl-[90px]  xl:pl-[120px]  2xl:pl-[160px] 3xl:pl-[200px]  4xl:pl-[240px] 5xl:pl-[285px] lg:pr-2 lg:col-span-3 bg-[#F5F8FA] text-white"
         >
           <div className="">
             <h2 className="text-[28px] md:text-4xl font-bold leading-normal text-black pb-[20px] text-center lg:text-left">
@@ -71,7 +72,7 @@ export default function ContactHome() {
           </div>
         </div>
 
-        <div className="form__part order-1 lg:order-2 rounded-lg p-5 lg:col-span-3 lg:p-12 items-center">
+        <div className="form__part order-1 lg:order-2 rounded-lg py-[30px] lg:py-[45px]  xl:py-[60px]  3xl:py-[75px] 5xl:py-[85px] px-6 pr-[30px] md:pr-[60] lg:pr-[90px]  xl:pr-[120px]  2xl:pr-[160px] 3xl:pr-[200px]  4xl:pr-[240px] 5xl:pr-[285px] lg:pl-[60px] lg:col-span-3 items-center">
           <h2 className="lg:mb-8 mb-5 text-white text-[28px] lg:text-4xl font-bold">Give Us Feedback </h2>
           <form action="#" className="space-y-4 ">
             <div>
@@ -170,6 +171,7 @@ export default function ContactHome() {
             </div>
           </form>
         </div>
+      </div>
       </div>
     </div>
   );

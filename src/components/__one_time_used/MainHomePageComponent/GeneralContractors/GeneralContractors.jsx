@@ -17,11 +17,12 @@ const GeneralContractors = () => {
                 <p className="text-lg font-medium leading-[194%] text-center md:text-left">
                 National Remodelling & General Contracting Inc. stands tall among Toronto's leading general contractors, renowned for our unwavering commitment to excellence. With a rich history spanning years, we have established ourselves as pioneers in the industry, delivering top-tier construction and renovation solutions to residential and commercial clients alike. From meticulous planning to flawless execution, every project undertaken by us reflects our dedication to quality and client satisfaction. Our team of skilled professionals combines innovative design with superior construction techniques to bring visions to life, transforming spaces into masterpieces. Whether it's a residential renovation, commercial build-out, or restoration project, our company sets the benchmark for reliability, integrity, and superior craftsmanship in Toronto's construction landscape.
                 </p>
+                
           </div>
           <div className="md:col-span-4 flex items-center justify-center lg:justify-end pt-6 md:pt-0">
                 <div>
                     <Image src="/assets/images/GeneralContractors.png" alt="GeneralContractors" width={940} height={585}
-                    className="w-full lg:w-[550px] xl:w-[600px] 2xl:w-[700px] 3xl:w-[800px] 4xl:w-[860px] 5xl:w-[940px] h-[323px] md:h-dvh"
+                    // className="w-full lg:w-[550px] xl:w-[600px] 2xl:w-[700px] 3xl:w-[800px] 4xl:w-[860px] 5xl:w-[940px] h-[323px] md:h-dvh"
                     />
                 </div>
           </div>

@@ -62,9 +62,9 @@ const easyPool = [
 
 const ChoosetheRight = () => {
   return (
-    <div className="footer__bg">
-      <div className="container">
-        <div className="2xl:py-20 py-10 shadow-sm md:mx-0 xs:mx-[35px] ">
+    <div className="">
+      <div className="container banner bg-dark-200">
+        <div className="banner-content 2xl:py-20 py-10 shadow-sm md:mx-0 xs:mx-[35px] ">
           <div className=" grid md:grid-cols-3 2xl:gap-[50px] md:gap-[30px] ">
             <div className="mx-auto flex flex-col items-center justify-center">
               <div className="flex md:justify-normal justify-center md:items-start items-center">
