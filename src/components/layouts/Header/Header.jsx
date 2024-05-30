@@ -3,7 +3,7 @@ import UpperNavbar from "./UpperNavbar";
 import "./Header.css";
 import Link from "next/link";
 import { UtilsModule } from "@/utils/nav-menus";
-import logo from "../../../../public/assets/logo/Logo.png";
+import logo from "../../../../public/assets/logo/header-logo.png";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
             />
           </Link>
 
-          <div className=" pr-6 md:pr-8 lg:pr-24 xl:pr-28 2xl:pr-32 3xl:pr-40 4xl:pr-52 5xl:pr-[285px] w-full bg-white lg:bg-[#FFF9EE]">
+          <div className=" pr-6 md:pr-8 lg:pr-24 xl:pr-28 2xl:pr-32 3xl:pr-40 4xl:pr-52 5xl:pr-[285px] w-full">
             <div className="w-full">
               <UpperNavbar />
             </div>

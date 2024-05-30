@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const BestServices = () => {
   return (
-    <div>
+    <div className="">
       <div className=" bg-[#FFF9EE]">
         <div className=" container">
-          <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px]  common__padding__top">
+          <div className="grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] common__padding__top">
             <div className="md:col-span-3 flex justify-center items-center">
               <div className="">
                 <Image

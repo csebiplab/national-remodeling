@@ -1,6 +1,7 @@
 import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
+import Link from "next/link";
 
 const TrustUs = () => {
   return (
@@ -29,7 +30,7 @@ const TrustUs = () => {
                 <span className="text-primary">in Toronto</span>
               </p>
               <p className="text-[18px] 2xl:leading-[35px] lg:leading-[25px] leading-[20px] md:text-start text-center">
-              Embark on your dream renovation journey with National Remodelling & General Contracting Inc., your trusted general contractor in Toronto. With a sterling reputation built on integrity, quality, and professionalism, we excel in bringing your renovation dreams to life. From residential to commercial projects, our experienced team delivers exceptional craftsmanship and attention to detail. Whether it's a kitchen remodel, bathroom renovation, or entire home makeover, we prioritize customer satisfaction every step of the way. With transparent communication and a commitment to deadlines, we ensure a stress-free experience for our clients.
+              Embark on your dream renovation journey with National Remodelling & General Contracting Inc., your trusted general contractor in Toronto. With a sterling reputation built on integrity, quality, and professionalism, we excel in bringing your renovation dreams to life. From residential to commercial projects, our experienced team delivers exceptional craftsmanship and attention to detail. Whether it's a kitchen remodel, bathroom renovation, or entire  <Link className="text-blue-900 underline" href="https://en.wikipedia.org/wiki/Home_improvement">home makeover,</Link> we prioritize customer satisfaction every step of the way. With transparent communication and a commitment to deadlines, we ensure a stress-free experience for our clients.
               </p>
             </div>
           </div>

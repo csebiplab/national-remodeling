@@ -2,7 +2,8 @@ import "./KeyServices.css";
 
 const KeyServices = () => {
   return (
-    <div className="container banner py-[45px] md:py-[55px] lg:py-[65px] xl:py-[75px] 2xl:py-[85px] 3xl:py-[95px] 4xl:py-[105px] 5xl:py-[115px] flex justify-center items-center bg-blend-multiply bg-dark-200">
+    <div className="border-2 border-primary rounded-[50px]">
+      <div className="container banner  py-[45px] md:py-[55px] lg:py-[65px] xl:py-[75px] 2xl:py-[85px] 3xl:py-[95px] 4xl:py-[105px] 5xl:py-[115px] flex justify-center items-center bg-blend-multiply bg-dark-200">
       <div className="text-center banner-content">
         <div>
           <h1 className="text-white text-[35px] md:text-[45px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px] 3xl:text-[65px] 4xl:text-[70px] 5xl:text-[75px] font-normal md:font-medium leading-tight">
@@ -13,6 +14,7 @@ const KeyServices = () => {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -25,7 +25,7 @@ const OurServiceAreas = () => {
                 alt="services area image"
                 // className="w-[370px] h-[260px] md:w-[640px] md:h-[445px]"
               />
-              <button className="w-full bg-primary px-[34px] py-[10px] flex justify-center items-center rounded-md">
+              <button className="w-full bg-primary px-[34px] py-[10px] flex justify-center items-center rounded-b-md">
                 <span className="text-white text-lg font-medium">Toronto</span>
               </button>
             </div>
@@ -39,7 +39,7 @@ const OurServiceAreas = () => {
                 alt="services area  image"
                 // className="w-[370px] h-[260px] md:w-[640px] md:h-[445px]"
               />
-              <button className="w-full bg-primary px-[34px] py-[10px] flex justify-center items-center rounded-md">
+              <button className="w-full bg-primary px-[34px] py-[10px] flex justify-center items-center rounded-b-md">
                 <span className="text-white text-lg font-medium">Durham</span>
               </button>
             </div>

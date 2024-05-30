@@ -55,13 +55,13 @@ const workingData = [
   {
     imgSrc: working5,
     title: "Execution",
-    description: `With the plan in place and permits acquired, our experienced team of contractors begins the construction process. We prioritize efficiency, quality craftsmanship, and safety throughout every stage of the project.`,
+    description: `With the plan in place and permits acquired, our experienced team of contractors begins the construction process. We prioritize efficiency, quality and safety throughout every stage of the project.`,
   },
   {
     imgSrc: working6,
     title: "Regular Updates",
     description: `We maintain open communication with the client, providing regular updates on the progress of the project and addressing any concerns or modifications promptly.`,
-  }
+  },
 ];
 
 const WorkingProcess = () => {
@@ -74,8 +74,9 @@ const WorkingProcess = () => {
               <HeadingIcon text={headingIconText.workingProcess__IconTxt} />
             </div>
 
-            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
-            <span className="text-primary">Working Process</span> of Our Toronto General Contractors
+            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
+              <span className="text-primary">Working Process</span> of Our
+              Toronto General Contractors
             </h2>
           </div>
 
@@ -95,9 +96,9 @@ const WorkingProcess = () => {
             {workingData.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className={`text-center py-4 lg:py-10 px-20 md:px-14 lg:px-6`}
+                className={`!relative text-center py-4 lg:pt-10 px-20 md:px-14 lg:px-6`}
               >
-                <div>
+                <div className="">
                   <Image
                     src={slide.imgSrc}
                     width={192}
@@ -105,15 +106,77 @@ const WorkingProcess = () => {
                     alt="working"
                     className="working p-10 mt-[10px] mx-auto"
                   />
+                  
                   <div className="text-center">
-                    <h4 className="text-[25px] py-2">
-                      {slide.title}
-                    </h4>
-                    <p className="text-lg mt-2 mb-3  text-black leading-[20px] md:leading-6">
+                    <h4 className="text-[25px] font-medium py-2">{slide.title}</h4>
+                    <p className="text-lg pt-2 font-normal text-black leading-[20px] md:leading-6">
                       {slide.description}
                     </p>
                   </div>
                 </div>
+                <div className="hidden md:block absolute md:top-28 lg:top-36 -left-[45px] right-[420px]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="84"
+                    height="23"
+                    viewBox="0 0 84 23"
+                    fill="none"
+                  >
+                    <ellipse
+                      cx="11.5846"
+                      cy="11.7705"
+                      rx="11.0163"
+                      ry="11"
+                      fill="#C99B4C"
+                    />
+                    <ellipse
+                      cx="42.6306"
+                      cy="11.7705"
+                      rx="11.0163"
+                      ry="11"
+                      fill="black"
+                    />
+                    <ellipse
+                      cx="72.6751"
+                      cy="11.7705"
+                      rx="11.0163"
+                      ry="11"
+                      fill="#C99B4C"
+                    />
+                  </svg>
+                </div>
+                <div className="block md:hidden flex justify-center pt-4">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="84"
+                    height="23"
+                    viewBox="0 0 84 23"
+                    fill="none"
+                  >
+                    <ellipse
+                      cx="11.5846"
+                      cy="11.7705"
+                      rx="11.0163"
+                      ry="11"
+                      fill="#C99B4C"
+                    />
+                    <ellipse
+                      cx="42.6306"
+                      cy="11.7705"
+                      rx="11.0163"
+                      ry="11"
+                      fill="black"
+                    />
+                    <ellipse
+                      cx="72.6751"
+                      cy="11.7705"
+                      rx="11.0163"
+                      ry="11"
+                      fill="#C99B4C"
+                    />
+                  </svg>
+                </div>
+                
               </SwiperSlide>
             ))}
           </Swiper>
