@@ -1,6 +1,6 @@
 "use client";
 import Factor1 from "../../../../../public/assets/images/Factor1.png";
-import Factor2 from "../../../../../public/assets/images/Factor2.png";
+import Factor2 from "../../../../../public/assets/images/Factor-2.png";
 import Factor3 from "../../../../../public/assets/images/Factor3.png";
 import Factor4 from "../../../../../public/assets/images/Factor4.png";
 import Factor5 from "../../../../../public/assets/images/Factor5.png";
@@ -63,7 +63,7 @@ const FactorsToHiringUs = () => {
             {workingData.map((slide, index) => (
               <div
                 key={index}
-                className={`relative text-center py-4 lg:py-6 lg:px-12 image transition-all duration-500 ease-in-out`}
+                className={`text-center py-4 lg:py-6 lg:px-12 image transition-all duration-0 ease-in-out`}
               >
                 <div className="">
                   <Image

@@ -67,8 +67,8 @@ const ProjectGallery = () => {
           <div className="flex flex-col justify-center items-center">
             <HeadingIcon text={headingIconText.gallery__IconTxt} />
             <div>
-              <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
-                Gallery of{" "}
+              <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
+                Gallery of{" "} <br className="block md:hidden"/>
                 <span className="text-primary">Our Past Projects</span>
               </p>
             </div>

@@ -1,6 +1,7 @@
 import { IoIosMail } from "react-icons/io";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaMapLocationDot, FaPhoneVolume, FaXTwitter } from "react-icons/fa6";
+import { FaPhoneVolume, FaXTwitter } from "react-icons/fa6";
+import { PiMapPinLineFill } from "react-icons/pi";
 import Image from "next/image";
 
 import "./GiveUsFeedback.css";
@@ -15,11 +16,16 @@ export default function ContactHome() {
               <h2 className="text-[28px] md:text-4xl font-bold leading-normal text-black pb-[20px] text-center lg:text-left">
                 Contact Us
               </h2>
-              <div className="flex gap-2 items-center lg:text-lg text-sm justify-center lg:justify-start pb-6">
-                <FaMapLocationDot className="fill-black w-[29px] h-[29px]" />
-                <p className="text-black text-lg font-normal">
-                  1514 falconcrest dr Prickering,Ontario, L1V 4Z2
-                </p>
+              <div className="">
+                <a
+                  href="address:1514 falconcrest dr Prickering, Ontario, L1V 4Z2"
+                  className="my-3 flex gap-2 items-center lg:text-lg text-sm justify-center lg:justify-start pb-6"
+                >
+                  <PiMapPinLineFill className="fill-black w-[29px] h-[29px]" />
+                  <span className="text-black text-lg font-normal">
+                  1514 falconcrest dr Prickering, <br /> Ontario, L1V 4Z2
+                  </span>
+                </a>
               </div>
               <div className="">
                 <a

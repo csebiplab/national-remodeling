@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { FaMapMarkedAlt } from "react-icons/fa";
+import { PiMapPinLineFill } from "react-icons/pi";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import "./Footer.css";
@@ -248,27 +248,27 @@ const Footer = () => {
                 <ul className="text-center md:text-start mx-auto">
                   <li>
                     <Link
-                      href="Cedar Ave, Thornhill, ON L3T 3W1"
-                      className="footer-link items-center justify-center md:justify-normal text-base text-white"
+                      href="1514 falconcrest dr Prickering,Ontario, L1V 4Z2"
+                      className="footer-link items-start text-left justify-center md:justify-start md:items-center text-sm text-white"
                     >
-                      <FaMapMarkedAlt className="h-4 w-4 lg:h-6 lg:w-6" /> 1514 falconcrest dr Prickering,Ontario, L1V 4Z2
+                      <PiMapPinLineFill className="w-[21px] h-[21px]" /> 1514 falconcrest dr Prickering, <br /> Ontario, L1V 4Z2
                     </Link>
                   </li>
                   <li className="lg:py-8 xs:py-[12px]">
                     <Link
                       href="tel:+1 (416) 996-2409"
-                      className="footer-link items-center justify-center md:justify-normal text-base text-white"
+                      className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
-                      <FaPhoneVolume className="h-4 w-4 lg:h-6 lg:w-6" /> 416-996-2409
+                      <FaPhoneVolume className="w-[21px] h-[21px]" /> 416-996-2409
 
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="mailto:informational@yahoo.com"
-                      className="footer-link items-center justify-center md:justify-normal text-base text-white"
+                      className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
-                      <TfiEmail className="h-4 w-4 lg:h-6 lg:w-6" />
+                      <TfiEmail className="w-[21px] h-[21px]" />
                       infonational@yahoo.com
 
                     </Link>
