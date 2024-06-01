@@ -1,6 +1,6 @@
 "use client";
 import Factor1 from "../../../../../public/assets/images/Factor1.png";
-import Factor2 from "../../../../../public/assets/images/Factor2.png";
+import Factor2 from "../../../../../public/assets/images/Factor-2.png";
 import Factor3 from "../../../../../public/assets/images/Factor3.png";
 import Factor4 from "../../../../../public/assets/images/Factor4.png";
 import Factor5 from "../../../../../public/assets/images/Factor5.png";
@@ -9,7 +9,6 @@ import Image from "next/image";
 
 import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
-
 
 const workingData = [
   {
@@ -41,7 +40,7 @@ const workingData = [
     imgSrc: Factor6,
     title: "Timelines & Deadlines",
     description: `Discuss the project timeline with the contractor and ensure they can commit to realistic deadlines. Delays can be costly and inconvenient, so clarity on scheduling is essential from the outset.`,
-  }
+  },
 ];
 
 const FactorsToHiringUs = () => {
@@ -55,8 +54,8 @@ const FactorsToHiringUs = () => {
             </div>
 
             <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
-            Factors to Consider When Hiring a
-            <span className="text-primary"> Toronto General Contractor</span>
+              Factors to Consider When Hiring a
+              <span className="text-primary"> Toronto General Contractor</span>
             </h2>
           </div>
 
@@ -64,18 +63,19 @@ const FactorsToHiringUs = () => {
             {workingData.map((slide, index) => (
               <div
                 key={index}
-                className={`relative text-center py-4 lg:py-6 lg:px-12`}
+                className={`text-center py-4 lg:py-6 lg:px-12 image transition-all duration-0 ease-in-out`}
               >
-                <div>
+                <div className="">
                   <Image
                     src={slide.imgSrc}
                     width={192}
                     height={192}
                     alt="working"
-                    className="p-10 mt-[10px] mx-auto"
+                    className="w-[192px] h-[192px] mx-auto"
                   />
+
                   <div className="text-center">
-                    <h4 className="text-[25px] py-2">
+                    <h4 className="text-[25px] py-2 text-black">
                       {slide.title}
                     </h4>
                     <p className="text-lg text-center mt-2 mb-3  text-black leading-[24px] md:leading-6">
@@ -83,7 +83,7 @@ const FactorsToHiringUs = () => {
                     </p>
                   </div>
                 </div>
-                <hr className="absolute bottom-0 left-0 right-0 border border-black"/>
+                <hr className="absolute bottom-0 left-0 right-0 border border-black" />
               </div>
             ))}
           </div>

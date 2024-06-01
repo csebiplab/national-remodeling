@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { FaMapMarkedAlt } from "react-icons/fa";
+import { PiMapPinLineFill } from "react-icons/pi";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import "./Footer.css";
@@ -183,14 +183,14 @@ const Footer = () => {
         <footer className="container top-footer-content !z-50 py-[24px] md:py-[40px] lg:py-[55px] xl:py-[70px] 2xl:py-[85px] 3xl:py-[100px] 4xl:py-[110px] 5xl:py-[120px] text-white">
           <div className="">
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-12 2xl:gap-x-[px] justify-center">
-              <div className="w-full lg:w-auto">
-                <div className="mx-auto flex justify-center">
+              <div className=" w-full lg:w-auto">
+                <div className=" mx-auto flex justify-center">
                   <Image
-                    src="/assets/logo/Logo.png"
+                    src="/assets/logo/header-logo.png"
                     height={311}
                     width={141}
                     alt="Logo"
-                    className="w-[269px] h-[112px] md:w-[311px] md:h-[141px]"
+                    className=" w-[269px] h-[112px] md:w-[311px] md:h-[141px]"
                   />
                 </div>
                 <p className="text-white pt-6 leading-[200%] text-center md:text-start">
@@ -248,29 +248,29 @@ const Footer = () => {
                 <ul className="text-center md:text-start mx-auto">
                   <li>
                     <Link
-                      href="Cedar Ave, Thornhill, ON L3T 3W1"
-                      className="footer-link items-center justify-center md:justify-normal text-base text-white"
+                      href="1514 falconcrest dr Prickering,Ontario, L1V 4Z2"
+                      className="footer-link items-start text-left justify-center md:justify-start md:items-center text-sm text-white"
                     >
-                      <FaMapMarkedAlt className="h-4 w-4 lg:h-6 lg:w-6" /> 4
-                      Cedar Ave, Thornhill, ON L3T 3W1
+                      <PiMapPinLineFill className="w-[21px] h-[21px]" /> 1514 falconcrest dr Prickering, <br /> Ontario, L1V 4Z2
                     </Link>
                   </li>
                   <li className="lg:py-8 xs:py-[12px]">
                     <Link
                       href="tel:+1 (416) 996-2409"
-                      className="footer-link items-center justify-center md:justify-normal text-base text-white"
+                      className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
-                      <FaPhoneVolume className="h-4 w-4 lg:h-6 lg:w-6" /> +1
-                      (416) 996-2409
+                      <FaPhoneVolume className="w-[21px] h-[21px]" /> 416-996-2409
+
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="mailto:informational@yahoo.com"
-                      className="footer-link items-center justify-center md:justify-normal text-base text-white"
+                      className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
-                      <TfiEmail className="h-4 w-4 lg:h-6 lg:w-6" />
-                      informational@yahoo.com
+                      <TfiEmail className="w-[21px] h-[21px]" />
+                      infonational@yahoo.com
+
                     </Link>
                   </li>
                   <div className="mt-[38px]">

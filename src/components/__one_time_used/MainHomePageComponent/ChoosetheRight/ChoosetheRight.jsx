@@ -67,7 +67,7 @@ const ChoosetheRight = () => {
         <div className="banner-content 2xl:py-20 py-10 shadow-sm md:mx-0 xs:mx-[35px] ">
           <div className=" grid md:grid-cols-3 2xl:gap-[50px] md:gap-[30px] ">
             <div className="mx-auto flex flex-col items-center justify-center">
-              <div className="flex md:justify-normal justify-center md:items-start items-center">
+              <div className="w-full flex md:justify-start justify-center md:items-start items-center">
                 <HeadingIcon
                   text={headingIconText.chooseTheRight__IconTxt}
                   classes={{ textWhite: "text-white" }}
@@ -75,7 +75,7 @@ const ChoosetheRight = () => {
               </div>
 
               <div>
-                <p className="text-white  text-[28px] lg:text-4xl font-medium text-center ">
+                <p className="text-white  text-[28px] lg:text-4xl font-medium text-center md:text-left">
                   Choose the Right General Contractors{" "}
                   <span className="text-primary">in Toronto</span>
                 </p>
@@ -92,7 +92,7 @@ const ChoosetheRight = () => {
             </div>
 
             <div className=" border-2 my-6 md:my-0 shadow bg-[#FFF9EE] rounded-lg">
-              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-[22px] font-bold">
+              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-base md:text-[22px] font-bold">
                 Usual General Contractors
               </h2>
               <div className=" grid grid-flow-col grid-rows-8 3xl:py-[35px] py-[25px] 3xl:px-[25px] px-[20px] 2xl:text-[16px] lg:text-[14px] xs:text-[9px]  ">
@@ -108,7 +108,7 @@ const ChoosetheRight = () => {
                       height={23}
                       className="2xl:h-[23px] 2xl:w-[23px] h-[15px] w-[15px]"
                     />
-                    <p className="text-lg text-[#6B6B6B] font-bold">
+                    <p className=" text-sm md:text-lg text-[#6B6B6B] font-bold">
                       {usual.title}
                     </p>
                   </div>
@@ -116,7 +116,7 @@ const ChoosetheRight = () => {
               </div>
             </div>
             <div className=" border-2 my-6 md:my-0 shadow bg-[#FFF9EE] rounded-lg">
-              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-[22px] font-bold">
+              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-base md:text-[22px] font-bold">
                 Our General Contractors
               </h2>
               <div className=" grid grid-flow-col grid-rows-8 3xl:py-[35px] py-[25px] 3xl:px-[25px] px-[20px] 2xl:text-[16px] lg:text-[14px] xs:text-[9px]  ">
@@ -132,7 +132,7 @@ const ChoosetheRight = () => {
                       height={23}
                       className="2xl:h-[23px] 2xl:w-[23px] h-[15px] w-[15px]"
                     />
-                    <p className="text-lg text-[#6B6B6B] font-bold">
+                    <p className="text-sm md:text-lg text-[#6B6B6B] font-bold">
                       {usual.title}
                     </p>
                   </div>
