@@ -33,7 +33,7 @@ const PartnerNRatings = () => {
   return (
     <div className="bg-[#FFF9EE]">
       <div className="container flex justify-center w-full  z-50 ">
-        <div className="w-full mx-auto lg:px-0 px-[30px] mt-4 md:mt-0 lg:-mt-20 bg-[#FFF9EE] lg:rounded-xl  ">
+        <div className="w-full mx-auto lg:px-0 px-[15px] md:px-[30px] mt-4 md:mt-0 lg:-mt-20 bg-[#FFF9EE] lg:rounded-xl  ">
 
 
           {/* <div className="px-4 py-4  mx-auto border-2 ">
@@ -131,7 +131,7 @@ const PartnerNRatings = () => {
           <div className="grid lg:grid-cols-6 grid-cols-3  items-center justify-center gap-2 mt-[25px]">
             {ratingImgs.map(({ imgUrl, text }, index) => (
               <div
-                className=" flex justify-center items-center py-[15px] lg:border-none border-2 rounded-xl lg:h-auto lg:w-auto md:h-[150px] md:w-[250px] sm:h-[120px] sm:w-[200px] h-[100px] w-[120px]"
+                className=" flex justify-center items-center py-[15px] lg:h-auto lg:w-auto md:h-[150px] md:w-[250px] sm:h-[120px] sm:w-[200px] h-[100px] w-[120px]"
                 key={index}
               >
                 <div className="text-center">
@@ -146,7 +146,7 @@ const PartnerNRatings = () => {
                     />
                   </div>
                   <div>
-                    <p className="md:mt-4 mt-2 md:text-[14px] text-[8px]">{text}</p>
+                    <p className="md:mt-4 mt-2 md:text-[14px] text-[8px] px-6 md:px-0">{text}</p>
                   </div>
                 </div>
 
