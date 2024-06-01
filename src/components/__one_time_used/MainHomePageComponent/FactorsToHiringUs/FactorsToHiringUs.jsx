@@ -83,7 +83,7 @@ const FactorsToHiringUs = () => {
                     </p>
                   </div>
                 </div>
-                <hr className="absolute bottom-0 left-0 right-0 border border-black" />
+                {/* <hr className="absolute bottom-0 left-0 right-0 border border-black" /> */}
               </div>
             ))}
           </div>
