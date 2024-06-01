@@ -28,3 +28,9 @@
   position: relative;
   z-index: 1;
 }
+
+
+/* small device  */
+.bg__color_small{
+  background: linear-gradient(180deg, #FFF9EE 27.43%, #FFF9EE 56.46%, rgba(255, 249, 238, 0.00) 70.97%, rgba(255, 249, 238, 0.00) 100%);
+}

@@ -130,11 +130,6 @@ img {
   @apply select-none;
 }
 
-/* .image {
-  transition: all filter 0.3s ease-in-out;
-  filter: none;
-} */
-
 .image:hover {
   filter: invert(98%) sepia(79%) saturate(2476%) hue-rotate(330deg)
     brightness(95%) contrast(95%);
