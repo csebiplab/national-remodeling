@@ -9,7 +9,6 @@ export default async function DashboardHeader({ className, ...props }) {
   const user = await getCurrentUser();
 
   // console.log(user);
-  
 
   return (
     <header
