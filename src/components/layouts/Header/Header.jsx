@@ -61,12 +61,12 @@ const Header = () => {
                     href="tel:+1(647) 449 9512"
                     className="text-black font-bold xs:text-base sm:text-[18px] 4xl:text-lg 5xl:text-[20px] "
                   >
-                    +1(647) 449 9512
+                    416-996-2409
                   </a>
                 </div>
                 <div className="block lg:hidden">
                   <Image
-                    src="/assets/icons/menu.png"
+                    src="/assets/images/menu__logo.png"
                     width={22}
                     height={22}
                     alt="Menu"
