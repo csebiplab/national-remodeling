@@ -2,6 +2,9 @@ import Footer from "@/components/layouts/Footer/Footer";
 import "./globals.css";
 import Header from "@/components/layouts/Header/Header";
 import { Montserrat } from "next/font/google";
+import dbConnect from "@/lib/db.connect";
+import homeRouteMetaData from "@/models/homeMetaDataFile";
+import verificationSite from "@/models/siteVerification";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -9,27 +12,21 @@ const montserrat = Montserrat({
 
 
 export async function generateMetadata() {
+
   try {
-    const [metaDataResponse, googleVerificationResponse] = await Promise.all([
-      fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/home`),
-      fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/verificationUrl`),
-    ]);
 
-    if (!metaDataResponse.ok || !googleVerificationResponse.ok) {
-      console.error('Network response was not ok');
-    }
+    await dbConnect();
+    const homeMetaData = await homeRouteMetaData.find();
+    const googleVerificationData = await verificationSite.find();
 
-    const metaData = await metaDataResponse.json();
-    const googleVerification = await googleVerificationResponse.json();
-
-    const googleConsoleKey = extractGoogleConsoleKey(googleVerification);
+    const googleConsoleKey = extractGoogleConsoleKey(googleVerificationData);
 
     const {
-      title = "Toronto Ontario",
-      description = "The general contractors in Toronto of National Remodelling & General Contracting Inc. offer top-notch #1 remodeling and construction services.",
-      keywords = "The general contractors in Toronto of National Remodelling & General Contracting Inc. offer top-notch #1 remodeling and construction services.",
+      title = "General Contractors in Toronto | National Remodelling",
+      description = "Top-rated general contractors in Toronto for expert home renovations, bathroom renovations, kitchen renovations and construction projects",
+      keywords = "General contractors in Toronto",
 
-    } = metaData?.homeRouteAllMetaData?.[0] || {};
+    } = homeMetaData?.[0] || {};
 
     return {
       title,
@@ -42,31 +39,30 @@ export async function generateMetadata() {
   } catch (error) {
     console.error('Error fetching metadata:', error);
     return {
-      title: "Toronto Concrete Pumping Company | Prime Concrete Pumping in Toronto",
-      description: "The general contractors in Toronto of National Remodelling & General Contracting Inc. offer top-notch #1 remodeling and construction services.",
-      keywords: "The general contractors in Toronto of National Remodelling & General Contracting Inc. offer top-notch #1 remodeling and construction services.",
+      title: "General Contractors in Toronto | National Remodelling",
+      description: "Top-rated general contractors in Toronto for expert home renovations, bathroom renovations, kitchen renovations and construction projects",
+      keywords: "General contractors in Toronto",
     };
   }
 }
 
-function extractGoogleConsoleKey(googleVerification) {
+function extractGoogleConsoleKey(googleVerificationData) {
   try {
-    const { verificationUrl } = googleVerification ?? {};
-    if (!verificationUrl || !verificationUrl[0]?.title) return "";
-    const metaTagContent = verificationUrl[0].title;
+    // const { verificationUrl } = googleVerification ?? {};
+    if (!googleVerificationData || !googleVerificationData[0]?.title) return "";
+
+
+    const metaTagContent = googleVerificationData[0].title;
     const consoleKey = metaTagContent.split("=").pop().slice(1, -4);
     return consoleKey;
+
+
   } catch (error) {
     console.error('Error extracting Google console key:', error);
     return "";
   }
 }
 
-// export const metadata = {
-//   title: "Toronto Ontario",
-//   description:
-//     "The general contractors in Toronto of National Remodelling & General Contracting Inc. offer top-notch #1 remodeling and construction services.",
-// };
 
 export default function RootLayout({ children }) {
   return (
