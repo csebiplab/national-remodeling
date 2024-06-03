@@ -40,7 +40,7 @@ const ReadyToWork = () => {
               </button>
             </div>
             <p className="text-black text-2xl font-semibold leading-normal mt-4 text-center md:text-left">
-              or Call Us: <span className="text-primary">416-996-2409</span>
+              or Call Us: <span className="text-primary">(416) 996-2409</span>
             </p>
           </div>
         </div>

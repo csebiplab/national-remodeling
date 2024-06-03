@@ -29,18 +29,18 @@ export default function ContactHome() {
               </div>
               <div className="">
                 <a
-                  href="tel:647-449-9512"
+                  href="tel:(416) 996-2409"
                   className="my-3 flex gap-2 items-center lg:text-lg text-sm justify-center lg:justify-start pb-6"
                 >
                   <FaPhoneVolume className="fill-black w-[29px] h-[29px]" />
                   <span className="text-black text-lg font-normal">
-                    416-996-2409
+                  (416) 996-2409
                   </span>
                 </a>
               </div>
               <div className="">
                 <a
-                  href="mailto:primeconcretetoronto@gmail.com"
+                  href="mailto:infonational@yahoo.com"
                   className="lg:text-lg text-sm flex gap-2 items-center justify-center lg:justify-start pb-6"
                 >
                   <IoIosMail className="fill-black w-[29px] h-[29px]" />

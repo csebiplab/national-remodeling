@@ -68,10 +68,10 @@ const FactorsToHiringUs = () => {
                 <div className="">
                   <Image
                     src={slide.imgSrc}
-                    width={192}
-                    height={192}
+                    width={129}
+                    height={129}
                     alt="working"
-                    className="w-[192px] h-[192px] mx-auto"
+                    className="w-[129px] h-[129px] mx-auto"
                   />
 
                   <div className="text-center">

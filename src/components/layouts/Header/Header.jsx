@@ -58,10 +58,10 @@ const Header = () => {
                     className="w-[23px] 4xl:w-[26px] 5x:w-[28px] h-[23px] 4xl:h-[26px] 5xl:h-[28px]"
                   />
                   <a
-                    href="tel:+1(647) 449 9512"
+                    href="tel:(416) 996-2409"
                     className="text-black font-bold xs:text-base sm:text-[18px] 4xl:text-lg 5xl:text-[20px] "
                   >
-                    416-996-2409
+                    (416) 996-2409
                   </a>
                 </div>
                 <div className="block lg:hidden">
