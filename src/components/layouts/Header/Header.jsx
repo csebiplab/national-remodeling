@@ -3,7 +3,7 @@ import UpperNavbar from "./UpperNavbar";
 import "./Header.css";
 import Link from "next/link";
 import { UtilsModule } from "@/utils/nav-menus";
-import logo from "../../../../public/assets/logo/header-logo.png";
+import logo from "../../../../public/assets/logo/header__logo.png";
 
 const Header = () => {
   return (
@@ -13,8 +13,8 @@ const Header = () => {
           <Link href="/">
             <Image
               src={logo}
-              width={115}
-              height={57}
+              width={180}
+              height={90}
               alt="logo"
               className="w-[115px] lg:w-[130px] xl:w-[140px] 2xl:w-[150px] 3xl:w-[160px] 4xl:w-[170px] 5xl:w-[180px] h-[57px] 2xl:h-[60px] 3xl:h-[70px] 4xl:h-[80px] 5xl:h-[90px]"
             />

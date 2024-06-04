@@ -186,7 +186,7 @@ const Footer = () => {
               <div className=" w-full lg:w-auto">
                 <div className=" mx-auto flex justify-center">
                   <Image
-                    src="/assets/logo/header-logo.png"
+                    src="/assets/logo/header__logo.png"
                     height={311}
                     width={141}
                     alt="Logo"

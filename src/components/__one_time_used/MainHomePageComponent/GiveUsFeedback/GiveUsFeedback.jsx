@@ -10,7 +10,7 @@ export default function ContactHome() {
   return (
     <div className="bg__color">
       <div className="custom-container">
-        <div className="grid grid-cols-1 lg:grid-cols-6 items-center common__padding__top">
+        <div className="grid grid-cols-1 lg:grid-cols-6 items-center  gap-[36px] lg:gap-[40px] xl:gap-[44px] 2xl:gap-[48px] 3xl:gap-[52px] 4xl:gap-[56px] 5xl:gap-[60px] common__padding__top">
           <div className="order-2 lg:order-1 py-[30px] lg:py-[50px] xl:py-[80px] 3xl:py-[100px] 5xl:py-[130px] px-6 pl-[30px] md:pl-[60] lg:pl-[90px]  xl:pl-[120px]  2xl:pl-[160px] 3xl:pl-[200px]  4xl:pl-[240px] 5xl:pl-[285px] lg:pr-2 lg:col-span-3 bg-[#F5F8FA] text-white">
             <div className="">
               <h2 className="text-[28px] md:text-4xl font-bold leading-normal text-black pb-[20px] text-center lg:text-left">
@@ -63,7 +63,7 @@ export default function ContactHome() {
                   </h4>
                   <div className="py-8">
                     <Image
-                      src="/assets/logo/header-logo.png"
+                      src="/assets/logo/header__logo.png"
                       height={260}
                       width={130}
                       alt="Toronto Logo"
