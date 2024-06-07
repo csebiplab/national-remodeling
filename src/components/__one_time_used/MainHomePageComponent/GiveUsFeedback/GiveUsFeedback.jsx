@@ -10,12 +10,12 @@ export default function ContactHome() {
   return (
     <div className="bg__color">
       <div className="custom-container">
-        <div className="grid grid-cols-1 lg:grid-cols-6 items-center common__padding__top">
+        <div className="grid grid-cols-1 lg:grid-cols-6 items-center  gap-[36px] lg:gap-[40px] xl:gap-[44px] 2xl:gap-[48px] 3xl:gap-[52px] 4xl:gap-[56px] 5xl:gap-[60px] common__padding__top">
           <div className="order-2 lg:order-1 py-[30px] lg:py-[50px] xl:py-[80px] 3xl:py-[100px] 5xl:py-[130px] px-6 pl-[30px] md:pl-[60] lg:pl-[90px]  xl:pl-[120px]  2xl:pl-[160px] 3xl:pl-[200px]  4xl:pl-[240px] 5xl:pl-[285px] lg:pr-2 lg:col-span-3 bg-[#F5F8FA] text-white">
             <div className="">
-              <h2 className="text-[28px] md:text-4xl font-bold leading-normal text-black pb-[20px] text-center lg:text-left">
+              <h5 className="text-[28px] md:text-4xl font-bold leading-normal text-black pb-[20px] text-center lg:text-left">
                 Contact Us
-              </h2>
+              </h5>
               <div className="">
                 <a
                   href="address:1514 falconcrest dr Prickering, Ontario, L1V 4Z2"
@@ -29,18 +29,18 @@ export default function ContactHome() {
               </div>
               <div className="">
                 <a
-                  href="tel:647-449-9512"
+                  href="tel:(416) 996-2409"
                   className="my-3 flex gap-2 items-center lg:text-lg text-sm justify-center lg:justify-start pb-6"
                 >
                   <FaPhoneVolume className="fill-black w-[29px] h-[29px]" />
                   <span className="text-black text-lg font-normal">
-                    416-996-2409
+                  (416) 996-2409
                   </span>
                 </a>
               </div>
               <div className="">
                 <a
-                  href="mailto:primeconcretetoronto@gmail.com"
+                  href="mailto:infonational@yahoo.com"
                   className="lg:text-lg text-sm flex gap-2 items-center justify-center lg:justify-start pb-6"
                 >
                   <IoIosMail className="fill-black w-[29px] h-[29px]" />
@@ -58,38 +58,38 @@ export default function ContactHome() {
 
               <div className="flex justify-center lg:justify-start">
                 <div>
-                  <h4 className="text-black text-[25px] text-center md:text-left font-bold">
+                  <h6 className="text-black text-[25px] text-center md:text-left font-bold">
                     National Remodeling & General Contractors Inc
-                  </h4>
+                  </h6>
                   <div className="py-8">
                     <Image
-                      src="/assets/logo/header-logo.png"
+                      src="/assets/logo/header__logo.png"
                       height={260}
                       width={130}
                       alt="Toronto Logo"
                       className="w-[260px] h-[130px] mx-auto lg:mx-0"
                     />
                   </div>
-                  <h4 className="text-black text-[25px] font-bold text-center md:text-left">
+                  <h6 className="text-black text-[25px] font-bold text-center md:text-left">
                     General Contractors in Toronto
-                  </h4>
+                  </h6>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="form__part order-1 lg:order-2 rounded-lg py-[30px] lg:py-[45px]  xl:py-[60px]  3xl:py-[75px] 5xl:py-[85px] px-6 pr-[30px] md:pr-[60] lg:pr-[90px]  xl:pr-[120px]  2xl:pr-[160px] 3xl:pr-[200px]  4xl:pr-[240px] 5xl:pr-[285px] lg:pl-[60px] lg:col-span-3 items-center">
-            <h2 className="lg:mb-8 mb-5 text-white text-[28px] lg:text-4xl font-bold">
+            <h5 className="lg:mb-8 mb-5 text-white text-[28px] lg:text-4xl font-bold">
               Give Us Feedback{" "}
-            </h2>
+            </h5>
             <form action="#" className="space-y-4 ">
               <div>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:mb-8 mb-4">
                   <div>
                     {" "}
-                    <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">
+                    <p className="mb-2 text-white text-[14px] md:text-lg font-normal">
                       Your name *
-                    </h5>
+                    </p>
                     <label className="sr-only" htmlFor="email">
                       name
                     </label>
@@ -103,9 +103,9 @@ export default function ContactHome() {
                   </div>
 
                   <div>
-                    <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">
+                    <p className="mb-2 text-white text-[14px] md:text-lg font-normal">
                       Email *
-                    </h5>
+                    </p>
                     <label className="sr-only" htmlFor="phone">
                       Phone
                     </label>
@@ -122,9 +122,9 @@ export default function ContactHome() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mb-8 mb-4">
                 <div>
-                  <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">
+                  <p className="mb-2 text-white text-[14px] md:text-lg font-normal">
                     Subjects *
-                  </h5>
+                  </p>
                   <label className="sr-only" htmlFor="email">
                     Email
                   </label>
@@ -137,9 +137,9 @@ export default function ContactHome() {
                 </div>
 
                 <div>
-                  <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">
+                  <p className="mb-2 text-white text-[14px] md:text-lg font-normal">
                     Your Phone *
-                  </h5>
+                  </p>
                   <label className="sr-only" htmlFor="phone">
                     Phone
                   </label>
@@ -156,9 +156,9 @@ export default function ContactHome() {
                 <label className="sr-only" htmlFor="message">
                   Message
                 </label>
-                <h5 className="mb-2 text-white text-[14px] md:text-lg font-normal">
+                <p className="mb-2 text-white text-[14px] md:text-lg font-normal">
                   Message *
-                </h5>
+                </p>
                 <textarea
                   className="w-full field__style shadow-sm p-4 text-sm text-white"
                   placeholder="Write Message"
