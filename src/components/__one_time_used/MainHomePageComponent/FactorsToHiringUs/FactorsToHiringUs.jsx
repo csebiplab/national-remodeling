@@ -53,10 +53,10 @@ const FactorsToHiringUs = () => {
               <HeadingIcon text={headingIconText.factorsToHiringUs__IconTxt} />
             </div>
 
-            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
+            <h5 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
               Factors to Consider When Hiring a
               <span className="text-primary"> Toronto General Contractor</span>
-            </h2>
+            </h5>
           </div>
 
           <div className="grid gird-cols-1 lg:grid-cols-3 gap-12">
@@ -68,16 +68,16 @@ const FactorsToHiringUs = () => {
                 <div className="">
                   <Image
                     src={slide.imgSrc}
-                    width={192}
-                    height={192}
+                    width={129}
+                    height={129}
                     alt="working"
-                    className="w-[192px] h-[192px] mx-auto"
+                    className="w-[129px] h-[129px] mx-auto"
                   />
 
                   <div className="text-center">
-                    <h4 className="text-[25px] py-2 text-black">
+                    <h6 className="text-[25px] py-2 text-black">
                       {slide.title}
-                    </h4>
+                    </h6>
                     <p className="text-lg text-center mt-2 mb-3  text-black leading-[24px] md:leading-6">
                       {slide.description}
                     </p>

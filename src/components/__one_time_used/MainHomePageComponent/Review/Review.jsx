@@ -72,9 +72,9 @@ const Review = () => {
             <HeadingIcon text={headingIconText.reviews__IconTxt} />
 
             <div>
-              <h3 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
+              <h5 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
               Reviews Of <span className="text-primary">General Contractors</span>
-              </h3>
+              </h5>
             </div>
           </div>
         </div>
@@ -117,9 +117,9 @@ const Review = () => {
                   <p className="text-sm text-gray-800 py-3 3xl:text-[14px] ">
                     {test.text}
                   </p>
-                  <h6 className="font-semibold text-gray-900 ">
+                  <p className="font-semibold text-gray-900 ">
                     {test.author}
-                  </h6>
+                  </p>
                   <p className="text-gray-600 text-xs ">{test.location}</p>
                 </div>
               </SwiperSlide>
