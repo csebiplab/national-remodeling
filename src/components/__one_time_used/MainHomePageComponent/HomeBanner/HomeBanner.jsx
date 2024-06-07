@@ -1,4 +1,3 @@
-
 "use client";
 import "./HomeBanner.css";
 import { Button } from "@material-tailwind/react";
@@ -13,7 +12,7 @@ const HomeBanner = () => {
           <div className="banner-content grid grid-cols-1 md:grid-cols-8 items-center gap-10 py-[40px] md:py-[60px] lg:py-[80px] xl:py-[110px] 2xl:pt-[140px] 3xl:pt-[160px] 4xl:pt-[175px] 5xl:py-[192px]">
             <div className="md:col-span-4 flex items-center">
               <div className="">
-                <h1 className="text-4xl lg:text-[40px] xl:text-[44px] 2xl:text-[48px] 3xl:text-[52px] 4xl:text-[56px] 5xl:text-[60px] text-primary font-medium text-center md:text-left leading-tight">
+                <h1 className=" text-4xl lg:text-[40px] xl:text-[44px] 2xl:text-[48px] 3xl:text-[52px] 4xl:text-[56px] 5xl:text-[60px] text-primary font-medium text-center md:text-left leading-tight">
                   General Contractors in Toronto Ontario
                 </h1>
                 <p className="text-lg lg:text-[20px] font-medium text-center md:text-left leading-[30px] lg:leading-[40px] pt-2">

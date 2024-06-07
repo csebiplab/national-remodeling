@@ -75,10 +75,10 @@ const ChoosetheRight = () => {
               </div>
 
               <div>
-                <p className="text-white  text-[28px] lg:text-4xl font-medium text-center md:text-left">
+                <h5 className="text-white  text-[28px] lg:text-4xl font-medium text-center md:text-left">
                   Choose the Right General Contractors{" "}
                   <span className="text-primary">in Toronto</span>
-                </p>
+                </h5>
               </div>
 
               <div>
@@ -92,9 +92,9 @@ const ChoosetheRight = () => {
             </div>
 
             <div className=" border-2 my-6 md:my-0 shadow bg-[#FFF9EE] rounded-lg">
-              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-base md:text-[22px] font-bold">
+              <p className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-base md:text-[22px] font-bold">
                 Usual General Contractors
-              </h2>
+              </p>
               <div className=" grid grid-flow-col grid-rows-8 3xl:py-[35px] py-[25px] 3xl:px-[25px] px-[20px] 2xl:text-[16px] lg:text-[14px] xs:text-[9px]  ">
                 {usualPool.map((usual, idx) => (
                   <div
@@ -116,9 +116,9 @@ const ChoosetheRight = () => {
               </div>
             </div>
             <div className=" border-2 my-6 md:my-0 shadow bg-[#FFF9EE] rounded-lg">
-              <h2 className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-base md:text-[22px] font-bold">
+              <p className="title-bg text-center 2xl:py-[15px] py-[10px] text-white text-base md:text-[22px] font-bold">
                 Our General Contractors
-              </h2>
+              </p>
               <div className=" grid grid-flow-col grid-rows-8 3xl:py-[35px] py-[25px] 3xl:px-[25px] px-[20px] 2xl:text-[16px] lg:text-[14px] xs:text-[9px]  ">
                 {easyPool.map((usual, idx) => (
                   <div

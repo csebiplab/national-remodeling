@@ -206,13 +206,15 @@ const Footer = () => {
                   key={index}
                   className="mt-5 md:mt-0 text-center md:text-start"
                 >
-                  <h3 className="text-white !text-xl mb-5">{category.cat}</h3>
+                  <h5 className="text-white !text-xl mb-5">{category.cat}</h5>
                   <ul>
                     {category.links.map((link, idx) => (
                       <li key={idx} className="mb-6">
                         <Link href={link.url}>
                           <span className="text-white !text-base !font-normal">
+                            <p>
                             {link.label}
+                            </p>
                           </span>
                         </Link>
                       </li>
@@ -227,13 +229,15 @@ const Footer = () => {
                   key={index}
                   className="mt-5 md:mt-0 text-center md:text-start"
                 >
-                  <h3 className="text-white !text-xl mb-5">{category.cat}</h3>
+                  <h5 className="text-white !text-xl mb-5">{category.cat}</h5>
                   <ul>
                     {category.links.map((link, idx) => (
                       <li key={idx} className="mb-6">
                         <Link href={link.url}>
                           <span className="text-white !text-base !font-normal">
+                            <p>
                             {link.label}
+                            </p>
                           </span>
                         </Link>
                       </li>
@@ -244,7 +248,7 @@ const Footer = () => {
               </div>
 
               <div className="w-full lg:w-auto text-center md:text-start">
-                <h3 className="text-white !text-xl my-5">Contact Us</h3>
+                <h5 className="text-white !text-xl my-5">Contact Us</h5>
                 <ul className="text-center md:text-start mx-auto">
                   <li>
                     <Link

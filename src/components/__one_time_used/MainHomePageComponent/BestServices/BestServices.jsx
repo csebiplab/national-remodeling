@@ -25,10 +25,10 @@ const BestServices = () => {
               <div className="flex md:justify-normal justify-center md:items-start items-center text-[14px]">
                 <HeadingIcon text={headingIconText.bestServices__IconTxt} />
               </div>
-              <p className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
+              <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
                 Best Remodeling & Construction{" "}
                 <span className="text-primary">Services Company</span>
-              </p>
+              </h2>
               <p className="text-[18px] font-normal leading-[35px] text-center md:text-left">
                 National Remodelling & General Contracting Inc. stands as a
                 beacon of excellence in the realm of home renovation and
