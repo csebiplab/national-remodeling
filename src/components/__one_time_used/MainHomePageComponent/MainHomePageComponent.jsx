@@ -25,13 +25,13 @@ const MainHomePageComponent = () => {
   return (
     <div>
 
-      {/* <section>
-        <HomeBanner />
-      </section> */}
-
       <section>
-        <Banner/>
+        <HomeBanner />
       </section>
+
+      {/* <section>
+        <Banner/>
+      </section> */}
 
       <section>
         <PartnerNRatings />

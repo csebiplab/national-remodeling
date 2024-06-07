@@ -4,10 +4,8 @@
   z-index: -1;
   background: linear-gradient(
     90deg,
-    #fff3fc 0%,
-    #fff3fc 40%,
-    rgba(255, 243, 252, 0) 60%,
-    rgba(255, 243, 252, 0) 100%
+    #fff3fc 100%, 
+    #fff3fc 100%,
   );
 }
 
@@ -69,4 +67,14 @@
 .small__banner__section__content {
   position: relative;
   z-index: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .banner__section::before{
+    background-image: none;
+    background: linear-gradient(90deg, #FFF9EE 0%, #FFF9EE 40%, rgba(255, 249, 238, 0.00) 60%, rgba(255, 249, 238, 0.00) 100%);
+    
+  }
 }

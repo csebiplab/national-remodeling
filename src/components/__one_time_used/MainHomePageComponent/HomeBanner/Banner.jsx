@@ -2,7 +2,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="container home-banner py-20 min-h-screen flex justify-center items-center bg-blend-multiply bg-primary-700">
+    <div className="container home-banner py-20 min-h-screen flex justify-start items-center bg-blend-multiply bg-primary-700">
       <div className="text-center banner-content">
         <div>
           <h1 className="text-white text-[27px] lg:text-[55px] leading-normal">
