@@ -36,7 +36,7 @@ const CostBudgeting = () => {
               </p>
             </div>
 
-            <div className="md:col-span-3 flex justify-center items-center ">
+            <div className="md:col-span-3 flex justify-center items-center pt-4 md:pt-0">
               <div className="">
                 <Image
                   src="/assets/images/CostBudgeting.jpg"
