@@ -1,6 +1,7 @@
 import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
+import Link from "next/link";
 
 const ReadyToWork = () => {
   return (
@@ -30,7 +31,8 @@ const ReadyToWork = () => {
               </span>
             </p>
             <div className="flex justify-center md:justify-start mt-4">
-              <button
+            <Link href={`tel:(416) 996-2409`}>
+            <button
                 type="submit"
                 className="rounded-md bg-primary px-6 lg:px-10 py-2 font-semibold flex justify-center items-center mt-0 lg:mt-5"
               >
@@ -38,9 +40,13 @@ const ReadyToWork = () => {
                   Get Your Free Estimated
                 </span>
               </button>
+              </Link>
+              
             </div>
             <p className="text-black text-2xl font-semibold leading-normal mt-4 text-center md:text-left">
-              or Call Us: <span className="text-primary">(416) 996-2409</span>
+              or Call Us: <Link href={`tel:(416) 996-2409`}>
+              <span className="text-primary">(416) 996-2409</span>
+              </Link>
             </p>
           </div>
         </div>

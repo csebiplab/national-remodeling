@@ -7,7 +7,7 @@ const ServiceCard = ({ serv }) => {
   return (
     <div className="py-[12.5px] md:py-0">
       <div className="service__card h-auto">
-        <div className="relative text-center h-[580px]">
+        <div className="relative text-center h-[600px]">
           <Image
             src={imgUrl}
             width={430}
