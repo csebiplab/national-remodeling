@@ -36,7 +36,7 @@ const HomeBanner = () => {
                 </div>
               </div>
             </div>
-            <div className="-mt-[450px] block md:hidden small__banner__section w-auto h-[627px]" />
+            <div className=" -mt-[600px] block md:hidden small__banner__section w-auto h-[827px]" />
             <div />
           </div>
         </div>

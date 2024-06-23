@@ -7,7 +7,7 @@ import logo from "../../../../public/assets/logo/header__logo.png";
 
 const Header = () => {
   return (
-    <header className="custom-container">
+    <header className="custom-container z-50 sticky top-0">
       <nav className=" pl-6 md:pl-8 lg:pl-24 xl:pl-28 2xl:pl-32 3xl:pl-40 4xl:pl-52 5xl:pl-[285px]  py-1 main__header">
         <div className="flex items-center gap-x-4 xl:gap-x-8 2xl:gap-x-12 3xl:gap-x-16 4xl:gap-x-20 5xl:gap-x-[90px]">
           <Link href="/">
