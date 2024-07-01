@@ -20,12 +20,15 @@ const HomeBanner = () => {
                   construction services.
                 </p>
                 <div className="flex justify-center md:justify-start py-6">
-                  <button
-                    type="submit"
-                    className="w-[200px] lg:w-[274px] rounded-md bg-primary px-6 lg:px-10 py-4 font-semibold flex justify-center items-center"
-                  >
-                    <span className="mr-2 text-white">Get Estimated</span>
-                  </button>
+                  <a href={`tel:(416) 996-2409`} className="inline-flex">
+                    '
+                    <button
+                      type="submit"
+                      className="w-[200px] lg:w-[274px] rounded-md bg-primary px-6 lg:px-10 py-4 font-semibold flex justify-center items-center"
+                    >
+                      <span className="mr-2 text-white">Get Estimated</span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -48,12 +51,14 @@ const HomeBanner = () => {
             services.
           </p>
           <div className="flex justify-center md:justify-start pt-6">
-            <button
-              type="submit"
-              className="w-[200px] lg:w-[274px] rounded-md bg-primary px-6 lg:px-10 py-4 font-semibold flex justify-center items-center"
-            >
-              <span className="mr-2 text-white">Get Estimated</span>
-            </button>
+            <a href={`tel:(416) 996-2409`} className="inline-flex">
+              <button
+                type="submit"
+                className="w-[200px] lg:w-[274px] rounded-md bg-primary px-6 lg:px-10 py-4 font-semibold flex justify-center items-center"
+              >
+                <span className="mr-2 text-white">Get Estimated</span>
+              </button>
+            </a>
           </div>
         </div>
         <div>
