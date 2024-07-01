@@ -23,7 +23,7 @@ const HomeBanner = () => {
                   construction services.
                 </p>
                 <div className="flex justify-start py-6">
-                  <Link href={`tel:(416) 996-2409`}>
+                  <a href={`tel:(416) 996-2409`}>
                     <button
                       type="submit"
                       className="flex justify-center items-center w-[170px] large__Device__Btn p-3  font-semibold "
@@ -32,7 +32,7 @@ const HomeBanner = () => {
                         Get Estimated{" "}
                       </span>
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -41,27 +41,6 @@ const HomeBanner = () => {
           </div>
         </div>
       </div>
-
-      {/* small device  */}
-      {/* <div className="block md:hidden">
-        <div className="small__banner__section w-auto h-[627px]">
-          <div className="small__banner__section__content">
-            <HeadingOne smStyles={`pt-[30px] pl-[30px] text-4xl text-primary font-medium`}/>
-            <p className="px-[40px] pt-[10px] text-lg text-black font-medium">
-              Best commercial & residential The general contractors in Toronto
-              of National Remodelling & General Contracting Inc. offer top-notch
-              #1 remodeling and construction services.
-            </p>
-            <div className="w-full flex items-center justify-center md:justify-start pl-[30px] pt-[25px]">
-              <Button className="small__device__btn gap-x-2">
-                <span className="text-white text-xs font-bold">
-                  Get Estimated
-                </span>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
