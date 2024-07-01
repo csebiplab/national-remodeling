@@ -186,7 +186,7 @@ const Footer = () => {
               <div className=" w-full lg:w-auto">
                 <div className=" mx-auto flex justify-center">
                   <Image
-                    src="/assets/logo/header-logo.png"
+                    src="/assets/logo/header__logo.png"
                     height={311}
                     width={141}
                     alt="Logo"
@@ -206,13 +206,15 @@ const Footer = () => {
                   key={index}
                   className="mt-5 md:mt-0 text-center md:text-start"
                 >
-                  <h3 className="text-white !text-xl mb-5">{category.cat}</h3>
+                  <h5 className="text-white !text-xl mb-5">{category.cat}</h5>
                   <ul>
                     {category.links.map((link, idx) => (
                       <li key={idx} className="mb-6">
                         <Link href={link.url}>
                           <span className="text-white !text-base !font-normal">
+                            <p>
                             {link.label}
+                            </p>
                           </span>
                         </Link>
                       </li>
@@ -227,13 +229,15 @@ const Footer = () => {
                   key={index}
                   className="mt-5 md:mt-0 text-center md:text-start"
                 >
-                  <h3 className="text-white !text-xl mb-5">{category.cat}</h3>
+                  <h5 className="text-white !text-xl mb-5">{category.cat}</h5>
                   <ul>
                     {category.links.map((link, idx) => (
                       <li key={idx} className="mb-6">
                         <Link href={link.url}>
                           <span className="text-white !text-base !font-normal">
+                            <p>
                             {link.label}
+                            </p>
                           </span>
                         </Link>
                       </li>
@@ -244,11 +248,11 @@ const Footer = () => {
               </div>
 
               <div className="w-full lg:w-auto text-center md:text-start">
-                <h3 className="text-white !text-xl my-5">Contact Us</h3>
+                <h5 className="text-white !text-xl my-5">Contact Us</h5>
                 <ul className="text-center md:text-start mx-auto">
                   <li>
                     <Link
-                      href="1514 falconcrest dr Prickering,Ontario, L1V 4Z2"
+                      href="1514 falconcrest dr Prickering,Ontario, L1V 4Z2"
                       className="footer-link items-start text-left justify-center md:justify-start md:items-center text-sm text-white"
                     >
                       <PiMapPinLineFill className="w-[21px] h-[21px]" /> 1514 falconcrest dr Prickering, <br /> Ontario, L1V 4Z2
@@ -256,16 +260,16 @@ const Footer = () => {
                   </li>
                   <li className="lg:py-8 xs:py-[12px]">
                     <Link
-                      href="tel:+1 (416) 996-2409"
+                      href="tel:(416) 996-2409"
                       className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
-                      <FaPhoneVolume className="w-[21px] h-[21px]" /> 416-996-2409
+                      <FaPhoneVolume className="w-[21px] h-[21px]" /> (416) 996-2409
 
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="mailto:informational@yahoo.com"
+                      href="mailto:infonational@yahoo.com"
                       className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
                       <TfiEmail className="w-[21px] h-[21px]" />

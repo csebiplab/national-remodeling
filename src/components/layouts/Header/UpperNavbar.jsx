@@ -7,14 +7,14 @@ const UpperNavbar = () => {
         <div className="w-full flex items-center gap-x-4 xl:gap-x-5 2xl:gap-x-6 3xl:gap-x-7 4xl:gap-x-8 5xl:gap-x-9">
           <div className="flex items-center gap-x-1">
             <Image
-              src="/assets/images/message.png"
+              src="/assets/icons/canada.jpg"
               width={23}
               height={23}
               alt="message icon"
               className="w-[15px] 2xl:w-[17px] 3xl:w-[19px] 4xl:w-[21px] 5xl:w-[23px] h-auto 5xl:h-[23px]"
             />
-            <h5 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
-              Best Construction Services Company
+            <h5 className="text-sm font-medium text-black">
+              General Contractors in Toronto
             </h5>
           </div>
 
@@ -26,17 +26,17 @@ const UpperNavbar = () => {
               alt="email icon"
               className="w-[15px] 2xl:w-[17px] 3xl:w-[19px] 4xl:w-[21px] 5xl:w-[23px] h-auto 5xl:h-[23px]"
             />
-            <h5 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
+            <p className="text-sm font-medium text-black">
               informational@yahoo.com
-            </h5>
+            </p>
           </div>
         </div>
 
         <div className="w-2/5">
         <div className="flex justify-end items-center gap-1 4xl:gap-1.5 5xl:gap-2">
-          <h3 className="text-[11px] 3xl:text-[12px] 4xl:text-[13px] 5xl:text-[14px] text-black">
+          <h5 className="text-sm font-medium text-black">
             Follow Us:
-          </h3>
+          </h5>
           <div className="flex items-center gap-x-2 2xl:gap-x-3 3xl:gap-x-4 4xl:gap-x-5 5xl:gap-x-6">
             <Image
               src="/assets/socials/facebook.png"

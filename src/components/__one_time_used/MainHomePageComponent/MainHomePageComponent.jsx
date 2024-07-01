@@ -19,6 +19,7 @@ import WorkingProcess from "./WorkingProcess/WorkingProcess";
 import ReadyToWork from "./ReadyToWork/ReadyToWork";
 import CostBudgeting from "./CostBudgeting/CostBudgeting";
 import FactorsToHiringUs from "./FactorsToHiringUs/FactorsToHiringUs";
+import Banner from "./HomeBanner/Banner";
 
 const MainHomePageComponent = () => {
   return (
@@ -27,6 +28,10 @@ const MainHomePageComponent = () => {
       <section>
         <HomeBanner />
       </section>
+
+      {/* <section>
+        <Banner/>
+      </section> */}
 
       <section>
         <PartnerNRatings />

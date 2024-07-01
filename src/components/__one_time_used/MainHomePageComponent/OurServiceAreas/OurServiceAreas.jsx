@@ -10,10 +10,10 @@ const OurServiceAreas = () => {
         <div className="mx-auto flex flex-col items-center justify-center common__padding__top">
           <HeadingIcon text={headingIconText.map__IconTxt} />
 
-          <h3 className="mt-4 mb-[10px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
+          <h6 className="mt-4 mb-[10px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal md:text-start text-center font-medium">
             Our Service Areas From{" "}
             <span className="text-primary">General Contractor</span>
-          </h3>
+          </h6>
         </div>
         <div className=" grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-0 mx-[35px] py-[20px] md:py-[30px]">
           <div className=" md:col-span-3 flex justify-center items-center ">

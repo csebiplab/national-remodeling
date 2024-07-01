@@ -74,10 +74,10 @@ const WorkingProcess = () => {
               <HeadingIcon text={headingIconText.workingProcess__IconTxt} />
             </div>
 
-            <h2 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
+            <h3 className="mt-4 lg:mb-[25px] mb-[15px] text-[28px] md:text-3xl lg:text-4xl text-dark leading-normal text-center font-medium">
               <span className="text-primary">Working Process</span> of Our
               Toronto General Contractors
-            </h2>
+            </h3>
           </div>
 
           <Swiper
@@ -108,7 +108,7 @@ const WorkingProcess = () => {
                   />
                   
                   <div className="text-center">
-                    <h4 className="text-[25px] font-medium py-2">{slide.title}</h4>
+                    <h6 className="text-[25px] font-medium py-2">{slide.title}</h6>
                     <p className="text-lg pt-2 font-normal text-black leading-[20px] md:leading-6">
                       {slide.description}
                     </p>
