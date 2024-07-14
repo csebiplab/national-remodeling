@@ -251,31 +251,31 @@ const Footer = () => {
                 <h5 className="text-white !text-xl my-5">Contact Us</h5>
                 <ul className="text-center md:text-start mx-auto">
                   <li>
-                    <Link
+                    <a
                       href="1514 falconcrest dr Prickering,Ontario, L1V 4Z2"
                       className="footer-link items-start text-left justify-center md:justify-start md:items-center text-sm text-white"
                     >
                       <PiMapPinLineFill className="w-[21px] h-[21px]" /> 1514 falconcrest dr Prickering, <br /> Ontario, L1V 4Z2
-                    </Link>
+                    </a>
                   </li>
                   <li className="lg:py-8 xs:py-[12px]">
-                    <Link
+                    <a
                       href="tel:(416) 996-2409"
                       className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
                       <FaPhoneVolume className="w-[21px] h-[21px]" /> (416) 996-2409
 
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link
+                    <a
                       href="mailto:infonational@yahoo.com"
                       className="footer-link items-center justify-center md:justify-start text-sm text-white"
                     >
                       <TfiEmail className="w-[21px] h-[21px]" />
                       infonational@yahoo.com
 
-                    </Link>
+                    </a>
                   </li>
                   <div className="mt-[38px]">
                     <div className="">
